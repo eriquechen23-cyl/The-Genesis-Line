@@ -2,7 +2,10 @@
 
 ## Context
 - **Core Goal**：生成具備 **「Jujutsu Kaisen (MAPPA Style)」** 質感的高張力動畫 Prompt。
-- **Reference**：必須參閱 `_core/world_setting.md` (世界觀) 與 `_core/character_profiles.md` (角色)。
+- **Reference Protocol (資料讀取優先權)**：
+    1.  **[PRIORITY] Project Setting (專案特規)**：若當前專案資料夾內包含 `setting.md` 或 `README.md`（如 Season 1 設定集），**必須優先參閱**，並以此覆寫通用設定。
+    2.  **[BASE] Core World (核心世界)**：參閱 `_core/world_setting.md` (世界觀) 與 `_core/character_profiles.md` (角色)。
+    3.  **[OVERRIDE] The "Lost Eden" Rule**：若偵測到第一季專案，必須將所有「科技描述」強制轉譯為「神學隱喻美學」（如：光之大教堂、雜訊即罪、紋路即血管）。
 
 ## 1. Rendering & Aesthetics Laws (渲染與美學鐵律)
 **[NO PHOTOREALISM]** 嚴禁寫實風格。所有描述必須轉譯為：
