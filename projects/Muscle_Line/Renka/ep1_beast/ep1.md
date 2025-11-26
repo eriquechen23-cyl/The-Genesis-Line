@@ -2,7 +2,7 @@
 ## Video Prompt: Renka\_Neuro\_Lunge (Ep 01) - BEAT MAXIMIZED
 
 **[State: Start]**
-* **Time/Location**: Night / 鋼脈都市地下遺跡入口。
+* **Time/Location**: Night / 創世紋路地下遺跡入口。
 * **Last Scene**: N/A (新片段開始)。
 * **Context**: 戀花以慵懶姿態站立，紋壓充能，並以西洋劍突刺精準命中衝鋒而來的異獸。
 
