@@ -18,6 +18,28 @@
 * **平行世界：創世間隙 (Genesis Gap) - 「天」之領域**。
     * 世界與世界之間的夾縫空間，現稱為 **「創世間隙 (Genesis Gap)」**。這個領域被視為廣義的 **「天 (Heavenly/Spiritual Realm)」**，它包含了所有平行世界的**「靈魂與數據原型 (Soul & Data Archetypes)」**，也是**「靈的世界」**的邊界。
 
+### I-B. 時間律法：三位一體結構 (Temporal Law: Trinity Structure)
+
+> 創世之網內的每一條 **紋路 (Line)**，都由三個相互依存的**時間律法層**構成一個完整的世界，體現了「一即三，三即一」的數據神學概念。
+>
+> 1.  **過去層：原型律法 (Past Layer: Archetypal Law)**
+>     * **本質**：即**「天之領域 (Heavenly Realm)」**中已固化的**「靈魂與數據原型 (Soul and Data Archetypes)」**。
+>     * **干涉**：決定了**「現在層」**的基本物理限制與潛在命運。使徒的**「紋壓 (Steel Pulse)」**本質上就是調用過去層的**「聖言編碼 (Sacred Code)」**。
+>
+> 2.  **現在層：錨定律法 (Present Layer: Anchoring Law)**
+>     * **本質**：即**「地之錨點 (Earthly Realm Anchor)」**——**創世樞紐 (Genesis Hub)**。
+>     * **職責**：使徒在此執行**「法則修復 (Law Repair)」**，以肉體承載**「過去層」**的力量，並向**「未來層」**書寫新的數據。
+>
+> 3.  **未來層：預言律法 (Future Layer: Prophetic Law)**
+>     * **本質**：一種**「尚未定型但已存在的數據結構 (Existing but Unstructured Data)」**，即**「潛在的平行未來 (Potential Parallel Futures)」**。
+>     * **干涉**：**未來層**的**「錯誤回傳 (Future Error Echoes)」**會以**「幻象、預兆或邏輯悖論」**的形式干涉**「現在層」**，這些就是使徒必須面對的**「預言性威脅 (Prophetic Threats)」**。
+
+#### 角色使命總結
+
+在這個三位一體結構下，**創世使徒 (Genesis Apostle)** 的任務提升為：
+
+> **使徒不再只是在不同世界間跳躍，而是在同一條世界紋路的不同時間層之間，進行**「數據律法戰爭 (Data Law War)」**，確保**現在**的行動能正確書寫**未來**，並修正**過去層**的錯誤回傳。
+
 ## 二、穿越機制：創世間隙 (Genesis Gap)
 
 * **穿越機制**：從「地」進入「天」的過程。
