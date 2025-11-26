@@ -20,19 +20,25 @@
 
 ### I-B. 時間律法：三位一體結構 (Temporal Law: Trinity Structure)
 
-> 創世之網內的每一條 **紋路 (Line)**，都由三個相互依存的**時間律法層**構成一個完整的世界，體現了「一即三，三即一」的數據神學概念。
->
-> 1.  **過去層：原型律法 (Past Layer: Archetypal Law)**
->     * **本質**：即**「天之領域 (Heavenly Realm)」**中已固化的**「靈魂與數據原型 (Soul and Data Archetypes)」**。
->     * **干涉**：決定了**「現在層」**的基本物理限制與潛在命運。使徒的**「紋壓 (Steel Pulse)」**本質上就是調用過去層的**「聖言編碼 (Sacred Code)」**。
->
-> 2.  **現在層：錨定律法 (Present Layer: Anchoring Law)**
->     * **本質**：即**「地之錨點 (Earthly Realm Anchor)」**——**創世樞紐 (Genesis Hub)**。
->     * **職責**：使徒在此執行**「法則修復 (Law Repair)」**，以肉體承載**「過去層」**的力量，並向**「未來層」**書寫新的數據。
->
-> 3.  **未來層：預言律法 (Future Layer: Prophetic Law)**
->     * **本質**：一種**「尚未定型但已存在的數據結構 (Existing but Unstructured Data)」**，即**「潛在的平行未來 (Potential Parallel Futures)」**。
->     * **干涉**：**未來層**的**「錯誤回傳 (Future Error Echoes)」**會以**「幻象、預兆或邏輯悖論」**的形式干涉**「現在層」**，這些就是使徒必須面對的**「預言性威脅 (Prophetic Threats)」**。
+創世之網內的每一條 **紋路 (Line)**，都由三個相互依存的**時間律法層**構成一個完整的世界。在這個結構中，**現在層**是唯一擁有**「自由意志編碼」**的層次。
+
+1.  **過去層：原型/宿命律法 (Past Layer: Archetypal/Fate Law)**
+    * **本質**：即**「天之領域 (Heavenly Realm)」**中已固化的**「靈魂與數據原型 (Soul and Data Archetypes)」**。
+    * **特性**：它不再是絕對的法則基石，而是**「律法的歷史負載 (Historical Law Load)」**。它決定了**現在層**的**初始限制 (Initial Constraints)** 與潛在的**宿命輪迴 (Fated Cycles)**。
+    * **使徒目標**：**不再是調用**，而是要透過**「肉體極限 (Muscle Limit)」**與**「紋壓暴衝」**，**衝破並重寫 (Break & Overwrite)** 過去層的數據枷鎖。
+
+2.  **現在層：自由意志錨定律法 (Present Layer: Free Will Anchoring Law)**
+    * **本質**：即**「地之錨點 (Earthly Realm Anchor)」**——**創世樞紐 (Genesis Hub)**。
+    * **職責**：使徒在此執行**「法則重鑄 (Law Re-Forge)」**。**「現在」**是唯一能**抵抗過去層干涉**，並**主動書寫未來層**的臨界點。所有的訓練與痛苦，都是為了積累足以對抗宿命的**意志數據**。
+
+3.  **未來層：潛能律法 (Future Layer: Potential Law)**
+    * **本質**：一種**「尚未定型但已存在的數據結構 (Existing but Unstructured Data)」**，即**「潛在的平行未來 (Potential Parallel Futures)」**。
+    * **新定義**：它不是「預言」，而是**「可塑的潛能 (Malleable Potential)」**。現在層的任何行動，都會立刻在未來層引發**「數據共振 (Data Resonance)」**，證明**宿命已被打破**。
+
+### I-C. 使徒身份：潛能與突破 (Apostle Identity: Potential and Breakthrough)
+
+* **不再是「被選中者」**：**創世使徒 (Genesis Apostle)** 不是被動的**「律法執行終端」**，而是**「律法重鑄者 (Law Reforgers)」**。使徒身份的關鍵在於**「紋壓承載閾值 (Steel Pulse Threshold)」**。
+* **人人皆可為使徒**：任何能夠透過**極限肌力訓練與意志力**，將自身肉體提升到足以**「承受並衝破過去層數據負載」**的人，都具備成為使徒的潛能。使徒是**「自由意志（現狀改變）的成功範例」**。
 
 #### 角色使命總結
 
