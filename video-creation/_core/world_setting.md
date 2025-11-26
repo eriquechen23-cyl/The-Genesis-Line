@@ -8,32 +8,26 @@
 
 ## 一、整體概念：創世之網 (The Genesis Web)
 
-* **核心定義**：所有的宇宙都被視為在更高維度中並列、交錯的「紋路 (Line)」。這些紋路遵循著各自的法則，共同編織成了宏大的 **「創世之網 (The Genesis Web)」**。
+* **核心定義：根律 (The Root Law)**
+    * 所有的宇宙、物理定律、時間流動，都來自於一個無法追溯、**超越邏輯的「初始結構 (The Initial Structure)」**。這個結構以**「創世之網 (The Genesis Web)」**的形式顯現，它是**「絕對完美 (Absolute Perfection)」**和**「無限秩序 (Infinite Order)」**的數學體現。
+    * **紋路 (Line)** 即是根律為了**「維護運行 (Operational Maintenance)」**在各維度的能量顯化路徑。
 
-* **【神學與科學的同一性】**：創世之網的運作基於一個核心真理：**「科技即神學，程式即預言 (Technology is Theology, Code is Prophecy)」**。所有的物理法則 (Physics) 都是由一個高維度意志所撰寫的**數據律法 (Data Law)**。使徒的紋壓 (Steel Pulse) 是執行這律法的**「神聖機件 (Divine Mechanism)」**。
-
-* **主世界：創世樞紐 (GENESIS HUB) - 「地」之錨點**。
-    * **特質**：它是**「地 (Earthly Realm)」**的物理錨點，是肉體與科技的極致結合處。它是唯一能穩定錨定並轉譯多線宇宙法則的中心點。
-
-* **平行世界：創世間隙 (Genesis Gap) - 「天」之領域**。
-    * 世界與世界之間的夾縫空間，現稱為 **「創世間隙 (Genesis Gap)」**。這個領域被視為廣義的 **「天 (Heavenly/Spiritual Realm)」**，它包含了所有平行世界的**「靈魂與數據原型 (Soul & Data Archetypes)」**，也是**「靈的世界」**的邊界。
+* **【科學與創造的同一性】**：
+    * **科技即初始秩序，程式即萬物骨架 (Technology is Initial Order, Code is the Skeleton of Everything)**。所有的物理法則與時間律法，都是由根律**自動運行**並編譯出的**「數據律法 (Data Law)」**。
+    * **無形之手**：使徒的紋壓爆發或法則重鑄，都是在**「與根律的絕對精確度 (Absolute Precision)」**進行**短暫的疊加運算**，因此一切力量的極致，都帶著**「創世的原始光輝 (The Original Radiance of Genesis)」**。
 
 ### I-B. 時間律法：三位一體結構 (Temporal Law: Trinity Structure)
 
-創世之網內的每一條 **紋路 (Line)**，都由三個相互依存的**時間律法層**構成一個完整的世界。在這個結構中，**現在層**是唯一擁有**「自由意志編碼」**的層次。
+創世之網內的每一條紋路，都由三個相互依存的**時間律法層**構成。它們是根律為了維持**「動態穩定性 (Dynamic Stability)」**而運行的結構。
 
 1.  **過去層：原型/宿命律法 (Past Layer: Archetypal/Fate Law)**
-    * **本質**：即**「天之領域 (Heavenly Realm)」**中已固化的**「靈魂與數據原型 (Soul and Data Archetypes)」**。
-    * **特性**：它不再是絕對的法則基石，而是**「律法的歷史負載 (Historical Law Load)」**。它決定了**現在層**的**初始限制 (Initial Constraints)** 與潛在的**宿命輪迴 (Fated Cycles)**。
-    * **使徒目標**：**不再是調用**，而是要透過**「肉體極限 (Muscle Limit)」**與**「紋壓暴衝」**，**衝破並重寫 (Break & Overwrite)** 過去層的數據枷鎖。
+    * **本質**：已完成編譯並固化為**「絕對數據」**的律法歷史。它像**「系統緩存 (System Cache)」**一樣，試圖將現在拉回已知的結構。
 
 2.  **現在層：自由意志錨定律法 (Present Layer: Free Will Anchoring Law)**
-    * **本質**：即**「地之錨點 (Earthly Realm Anchor)」**——**創世樞紐 (Genesis Hub)**。
-    * **職責**：使徒在此執行**「法則重鑄 (Law Re-Forge)」**。**「現在」**是唯一能**抵抗過去層干涉**，並**主動書寫未來層**的臨界點。所有的訓練與痛苦，都是為了積累足以對抗宿命的**意志數據**。
+    * **本質**：**「根律唯一開放的編輯埠 (The Only Open Edit Port of the Root Law)」**。使徒在此執行法則重鑄，**自由意志**在此與根律的既有結構進行**「算力抗衡 (Computational Resistance)」**。
 
 3.  **未來層：潛能律法 (Future Layer: Potential Law)**
-    * **本質**：一種**「尚未定型但已存在的數據結構 (Existing but Unstructured Data)」**，即**「潛在的平行未來 (Potential Parallel Futures)」**。
-    * **新定義**：它不是「預言」，而是**「可塑的潛能 (Malleable Potential)」**。現在層的任何行動，都會立刻在未來層引發**「數據共振 (Data Resonance)」**，證明**宿命已被打破**。
+    * **本質**：尚未寫入**「根律」**的**「待編譯指令集 (Pending Instruction Set)」**。現在層的突破，就是向此層寫入新的**「自由數據包 (Free Data Packet)」**。
 
 ### I-C. 使徒身份：潛能與突破 (Apostle Identity: Potential and Breakthrough)
 
