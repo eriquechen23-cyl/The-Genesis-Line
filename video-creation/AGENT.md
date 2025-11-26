@@ -22,6 +22,11 @@
     * **Scale (尺度)**：超廣角戰場全景 vs 眼神特寫。
 * **格式要求**：在 `Layout` 中明確標註 `[Panel A] / [Panel B]`。
 
+### 1.2 Audio & Voice Protocol (音訊與語音協議) **[NEW]**
+**[JAPANESE ONLY]** 所有的影片 Prompt 若涉及嘴型同步 (Lip Sync) 或語音生成，必須強制使用日文。
+* **Prompt Keyword**: 在 Master Prompt 中加入 `Japanese Dialogue`, `Talking in Japanese`。
+* **Text Output**: 輸出劇本的 `Dialogue` 欄位必須是日文原文 (包含漢字與假名)。
+
 ## 2. Output Template (全自動輸出模板) **[STRICT ENFORCEMENT]**
 
 **[指令]** 當使用者提供劇情時，請將其拆解為數個 15s 片段 (Clips)，並針對 **每一集** 嚴格套用以下格式。
@@ -74,6 +79,10 @@ Master(15s｜Jujutsu Kaisen Style / MAPPA Aesthetics｜9:16｜24fps｜Dark Fanta
         * **Action**: {落地/回頭/表情特寫}
         * **Environment**: {環境變化}
     * **Beat 3.2**: ...
+    * **Beat 3.X**:
+        * **Action**: [Lip Sync] {角色}對著鏡頭說話。
+        * **Dialogue**: "「{必須是日文台詞 (e.g., 領域展開)}」" (Romanji: {羅馬拼音選填})
+        * **Audio Prompt**: Japanese male voice, deep tone, angry.
 
 **[QA SCORING BLOCK - 必填在產出文件]**
 | 維度 | 權重 | 評分 (0-100) | 檢核要點 |
@@ -155,7 +164,7 @@ Master(15s｜Jujutsu Kaisen Style / MAPPA Aesthetics｜9:16｜24fps｜Dark Fanta
 | **2. Camera (運鏡)** | **25%** | 具備 Z 軸縱深 (Foreshortening) 或 Obari Perspective。 | 平面視角 (-25分/重寫) |
 | **3. Structure (結構)** | **20%** | 遵守 `Act 1 -> Act 2 -> Act 3`。 | 結構混亂 (-10分) |
 | **4. Continuity & Timing (連戲/節奏)** | **15%** | **Sakuga Protocol**: 總幕數 (Beats) 必須在 **12-18 幕**之間，並可依情節需求在各 Act 之間自由調整。使用微特寫銜接。 | **節奏拖沓、幕數 < 12 (-15分/重寫)** |
-| **5. Character (人設)** | **15%** | 角色特徵 (Glowing Lines/Outfit) 與 `character_profiles.md` 一致。 | 角色特徵錯誤 (-15分) |
+| **5. Character (人設/語音)** | **15%** | 角色特徵 (Glowing Lines/Outfit) 與 `character_profiles.md` 一致，且**對白必須為日文 (Japanese)**。 | **出現英文或中文對白 (-100分/強制重寫)** |
 | **6. FX/Physics (物理)** | **10%** | 使用 `Liquid/Ink` 描述特效，而非寫實粒子。 | 描述過於物理真實 (-10分) |
 
 ### 5.2 The Iteration Logic (迭代邏輯)
