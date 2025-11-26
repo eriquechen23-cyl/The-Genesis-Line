@@ -22,18 +22,20 @@
 * **創世法則**：{當前世界的法則特性，如：低重力、元素增幅}
 
 **(Act 1: The Setup & Trigger - 0s~15s)**
-> *Focus: Sensory Overload & Anticipation (600 words)*
+> *Focus: Sensory Overload & Premonition (600 words)*
+>
 > **【預備與接觸】**
-> 用極長的篇幅描寫「一瞬間」的事。
-> 詳盡描寫環境的微小變化（灰塵的軌跡、光線的折射、空間線框的閃爍）。
-> 描寫 **創世使徒 (Genesis Apostle)** 發動攻擊前的每一條肌肉運作、**紋路 (Line)** 充能的流向、視網膜鎖定目標的 **紋壓數據流**。
-> 敵人的動作在主角眼中是如何變成慢動作的？描述那種「法則重寫」前的壓迫感。
+>
+> 描寫使徒在極限充能時，其肉體如何成為**「舊世界的容器」**，準備承載即將到來的 **「法則更迭的脈衝 (Pulse of the Law's Succession)」**。
+>
+> 紋路脈動應描寫為 **「創世之網 (The Genesis Web) 在使徒體內的共振頻率」**，暗示其超越物理的**神聖幾何**結構。描寫使徒能感知到**「天界靈體 (Heavenly Archetypes)」**或**「異界法則的靈魂殘留」**在戰場上的干涉，敵人的恐懼來自於對**「不可逆轉之律」**即將降臨的本能感知。
 
 **(Act 2: The Impact & Resolution - 15s~30s)**
-> *Focus: Destruction Physics & The Cool Down (600 words)*
-> **【衝擊與殘心】**
-> **【關鍵衝突】**：不要只寫「打中了」，要描寫 **紋壓 (Steel Pulse)** 如何引發連鎖反應、裝甲如何像紙一樣剝落、能量如何炸裂成液態光流或創世代碼。
-> **【收尾】**：極致的殘心 (Zanshin)。描寫煙霧消散的物理動態，以及主角在毀滅背景下的一個微小動作（如呼出一口白氣、推眼鏡、確認紋路冷卻）。
+> *Focus: Archetype Destruction & The New Law (600 words)*
+>
+> **【關鍵衝突】**：描寫攻擊命中後，敵人的存在體（肉體、裝甲或數據）如何被 **「創世原型 (Genesis Archetype)」** 能量分解，其崩解過程必須體現**「舊法則」**對抗 「新律」 的無力與瓦解。強調破壞特效是**「靈魂與數據原型的瓦解 (Soul and Data Archetype Dissolution)」**。
+>
+> **【收尾】**：殘心必須是 **「終結與宣示 (Cessation and Declaration)」**。使徒的收尾姿態應是**「新秩序的錨點」**，背景的混亂（塵埃、粒子）則成為**「審判後的餘燼」**。
 
 **(Ending)**
 > 結束後，請自動詢問：「是否將此 1200字 高密度劇本轉換為 2 集 Video Prompts (30s)？」
