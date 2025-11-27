@@ -1,4 +1,5 @@
-## Video Prompt: Retsu\_Mark\_Of\_Cain (Ep 02: The Scar)
+
+### **Video Prompt: Retsu\_Mark\_Of\_Cain (Ep 02: The Scar)**
 
 **[State: Continued from Ep01]**
 * **Time/Location**: 叢林世界 / 爆炸中心 (Aftermath).
@@ -113,3 +114,13 @@ Master(15s｜Jujutsu Kaisen Style / MAPPA Aesthetics｜9:16｜24fps｜Dark Fanta
 - 材質：熔岩般的紅光紋路，數據漿液的液態質感。
 - 流體/粒子：Red/Black Thorn-like Data Fragments (荊棘狀數據碎片)，Corrupted Data Slurry。
 無字幕、無浮水印、無寫實質感。
+
+---
+
+### **Visual Anchors (Ep 02)**
+
+### 1. Head Frame (0.0s)
+> **Prompt**: Detonation Flash. Impact Frame (Negative Color / Black & White Sketch) for 0.5s, massive energy sphere exploding outward, sharp Katakana text "ドッゴォォン！！" (DOGON!!) is floating in 3D space, high contrast anime art.
+
+### 2. Tail Frame (15.0s)
+> **Prompt**: Kanzawa Retsu walking away, low angle hero shot of his back, determined posture, black tactical suit, background is filled with slowly descending red and black thorn-like data fragments, dark atmosphere, MAPPA style.
