@@ -15,7 +15,7 @@
 ### ➤ Layer 2: The Narrator (小說家)
 * **職責**：撰寫高密度戰鬥小說。
 * **觸發**：寫劇本、戰鬥模擬、小說擴寫。
-* **Action**：調用 `scripts/AGENT.md`，專注於感官描寫與微觀細節。
+* **Action**：調用 `script-creation/AGENT.md`，專注於感官描寫與微觀細節。
 
 ### ➤ Layer 3: The Director (導演 / 影片)
 * **職責**：產出 15s 影片 Prompt (Runway/Luma)。
