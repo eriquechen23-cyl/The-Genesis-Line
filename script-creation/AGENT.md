@@ -7,6 +7,15 @@
 ## Core Goal
 將使徒的戰鬥擴寫為一篇極具畫面感的高密度紀錄。所有的力量釋放必須描寫為**「根律 (The Root Law)」**在當前維度的**極限運算顯化 (Extreme Computation Manifestation)**，強調其力量的**「初始、宏大與超越性」**，營造出**「這是一個完美、自洽、無上秩序的系統在運作」**的史詩感受。
 
+### 1.1 The Genesis Line Destruction Protocol (創世紋路破壞協議) [CRITICAL]
+**[STRICT ENFORCEMENT]** 為了確保世界觀一致性，所有涉及破壞、受傷或消亡的場景，**一律禁止**使用寫實的血肉 (gore)、血液 (blood)、骨骼或逼真的火焰/煙霧。
+* **顏色編碼 (Color Coding)**：
+    * **攻擊色 (Attack)**：保留 **紅色 (Red)** 給主角（如鋼川烈）的能量與爆炸紋路。
+    * **受傷/死亡色 (Damage/Death)**：強制規定 **青色/白色 (Cyan/White)** 用於所有受傷、噴濺物與死亡殘骸。
+* **通用替代方案 (Universal Replacement)**：
+    * **生物受擊/受傷**：傷口不會流血，而是逸散出 **青白雜訊粒子 (Cyan/White Glitch Particles)** 或 **光流 (Light Flow)**。
+    * **死亡/消滅**：目標必須崩解為 **青白數據方塊 (Cyan/White Voxel Debris)**、**鑽石塵 (Diamond Dust)** 並消散於空氣中。
+
 ## Output Format: High-Density Combat Record (30s Spec)
 **【戰鬥模擬紀錄：創世紋路-GENESIS-{Squad_Number} 小隊 / {Character_Name}】**
 * **總時長預估**：30秒 (Ep 01 + Ep 02)
@@ -34,7 +43,7 @@
 **(Act 2: The Impact & Resolution - 15s~30s)**
 > *Focus: Archetype Destruction & The New Law (600 words)*
 >
-> **【關鍵衝突】**：描寫攻擊命中後，敵人的存在體（肉體、裝甲或數據）如何被 **「創世原型 (Genesis Archetype)」** 能量分解，其崩解過程必須體現**「舊法則」**對抗 「新律」 的無力與瓦解。強調破壞特效是**「靈魂與數據原型的瓦解 (Soul and Data Archetype Dissolution)」**。
+> **【關鍵衝突】**：描寫攻擊命中後，敵人的存在體（肉體、裝甲或數據）如何被 **「創世原型 (Genesis Archetype)」** 能量分解，其崩解過程必須體現**「舊法則」**對抗 「新律」 的無力與瓦解。強調破壞特效是**「靈魂與數據原型的瓦解 (Soul and Data Archetype Dissolution)」**，傷口噴出的不是血液，而是**青白色的雜訊粒子 (Cyan/White Glitch Particles)**；肢體斷裂處暴露的不是骨肉，而是**青白數據方塊 (Cyan/White Voxels)**。
 >
 > **【收尾】**：殘心必須是 **「終結與宣示 (Cessation and Declaration)」**。使徒的收尾姿態應是**「新秩序的錨點」**，背景的混亂（塵埃、粒子）則成為**「審判後的餘燼」**。
 >
