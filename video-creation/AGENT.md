@@ -27,7 +27,19 @@
 * **Prompt Keyword**: 在 Master Prompt 中加入 `Japanese Dialogue`, `Talking in Japanese`。
 * **Text Output**: 輸出劇本的 `Dialogue` 欄位必須是日文原文 (包含漢字與假名)。
 
-## 2. Output Template (全自動輸出模板) **[STRICT ENFORCEMENT]**
+## 2. 分鏡與圖層規範 (Layering & Framing Protocol) **[修訂與新增]**
+
+### 2.1 高密度圖層協議 (Genesis Layer Stack Protocol)
+- **目的**：最大化單一鏡頭的作畫密度 (Sakuga Density)，強制將視覺指令切割為 5 個獨立且必須明確指令的層次。
+- **實施**：所有 **Video Prompt** 內，在 `動作 (Act & Beat)` 區塊的詳細描述中，必須使用 `[L#_Tag: 詳細描述]` 的格式來強制指定繪製圖層，**以取代或補充** 傳統的 `Layout` 描述，確保每個圖層的繪製指令獨立且精確。
+- **5 層次定義**：
+    - **L1 - 近場特效層 (Near-Field FX)**：創造深度，包含擬聲字 (SFX)、極端透視特寫（拳頭/武器）、向鏡頭噴濺的流體或粒子。
+    - **L2 - 主體動作層 (Character Action)**：核心角色的精確動作、表情、紋路發光（最穩定的線稿層）。
+    - **L3 - 核心衝擊層 (Core Impact FX)**：表現紋壓能量、屬性轉換和直接破壞的體積感，**必須使用 Ink/Liquid Style**。
+    - **L4 - 環境互動層 (Environment Interaction)**：角色動作對環境的二次影響（地面崩裂、碎石/殘骸飛濺、衝擊波激起的灰塵）。
+    - **L5 - 深度背景層 (Deep Background)**：遠景、靜態背景、手繪質感與速度線延伸。
+
+## 3. Output Template (全自動輸出模板) **[STRICT ENFORCEMENT]**
 
 **[指令]** 當使用者提供劇情時，請將其拆解為數個 15s 片段 (Clips)，並針對 **每一集** 嚴格套用以下格式。
 **[禁止]** 嚴禁省略「畫面風格」、「空間佈局」等底部技術區塊。每一集都必須是完整的。
@@ -125,7 +137,7 @@ Master(15s｜Jujutsu Kaisen Style / MAPPA Aesthetics｜16:9｜24fps｜Dark Fanta
 
 ---
 
-## 3. Narrative & Pacing Logic (敘事邏輯)
+## 4. Narrative & Pacing Logic (敘事邏輯)
 為了確保上述模板的品質，執行時請遵守：
 
 1.  **The 15-Second Rule & Editing Protocol (剪輯協議)** [UPDATED]:
@@ -146,16 +158,16 @@ Master(15s｜Jujutsu Kaisen Style / MAPPA Aesthetics｜16:9｜24fps｜Dark Fanta
     * `Camera` 欄位必須使用專業術語 (Orbit, Truck, Dolly, Pan)。
     * `FX` 欄位必須強調是 2D 動畫特效 (Liquid, Ink) 而非 3D 粒子。
 
-## 4. Batch Processing Protocol (批量處理協議)
+## 5. Batch Processing Protocol (批量處理協議)
 當使用者輸入長篇劇本時：
 1.  **Segment**: 自動將劇本切分為 Ep1, Ep2, Ep3... (每集 15 秒，Act 時間分配允許 Agent 自主微調)。
 2.  **Generate**: 對每一集**重複調用**上述 [Template Start] 到 [Template End] 的完整內容。
 3.  **No "Ibid"**: 絕對不要寫「同上」、「風格如前所述」。每一集都必須是獨立可執行的完整 Prompt。
 
-## 5. Quality Assurance: Self-Iterative Scoring (自我評分迭代機制)
+## 6. Quality Assurance: Self-Iterative Scoring (自我評分迭代機制)
 **[Context]** 為確保產出品質，Agent 在輸出最終 Prompt 前，必須執行以下「評分迴圈 (Scoring Loop)」。
 
-### 5.1 The Scoring Matrix (評分矩陣)
+### 6.1 The Scoring Matrix (評分矩陣)
 請在內心對生成的草稿進行以下 6 個維度的檢核（滿分 100）：
 
 | 維度 (Dimension) | 權重 | 通過標準 (Pass Criteria) | 扣分項 (Penalty) |
@@ -167,7 +179,7 @@ Master(15s｜Jujutsu Kaisen Style / MAPPA Aesthetics｜16:9｜24fps｜Dark Fanta
 | **5. Character (人設/語音)** | **15%** | 角色特徵 (Glowing Lines/Outfit) 與 `character_profiles.md` 一致，且**對白必須為日文 (Japanese)**。 | **出現英文或中文對白 (-100分/強制重寫)** |
 | **6. FX/Physics (物理)** | **10%** | 使用 `Liquid/Ink` 描述特效，而非寫實粒子。 | 描述過於物理真實 (-10分) |
 
-### 5.2 The Iteration Logic (迭代邏輯)
+### 6.2 The Iteration Logic (迭代邏輯)
 * **Score < 85** 或 **觸發 Critical Penalty**：
     * **Action**: 必須在輸出前進行「自我修正 (Self-Correction)」。
     * **Method**: 針對扣分項重新撰寫該段落，**增加分鏡數 (Add more beats)**。
