@@ -24,14 +24,15 @@
     * Gore/Flesh -> `Data cubes`, `Wireframe exposure`, `Crystallized debris`.
     * Smoke -> `Stylized ink smoke`, `Geometric clouds`.
 
-## 2. Composition Protocol: The "5-Layer Extreme Depth" (五層景深極大化協議)
-**[MANDATORY]** 每一張圖像 Prompt 必須強制定義五個圖層，以創造極致的 Z 軸深度。
+## 2. Composition Protocol: The "5-Layer Plane Composition" (五層平面構成法)
+**[MANDATORY]** 嚴格限制 Z 軸為 5 個平面圖層，以維持 2D 動畫的賽璐珞層次感 (Cel-Look)。
 
-1.  **[XF: Extreme Foreground]**：作為遮擋或畫框的極度模糊元素。
-2.  **[F: Foreground]**：近景細節，如飛濺物、武器特寫。
-3.  **[M: Midground]**：核心主體與動作 (Sharp Focus)。
-4.  **[B: Background]**：環境與次要物體 (Atmospheric Fog)。
-5.  **[DB: Deep Background]**：地平線、天空或遠景 (Scale Definition)。
+1.  **Layer 1 (Lens/Screen)**: 貼在鏡頭上的特效（如：速度線、衝擊黑邊、UI 介面）。
+2.  **Layer 2 (Extreme FG)**: 極前景掩體（如：模糊的飛石、飄過的火花、前景柱子）。
+3.  **Layer 3 (Subject/Mid)**: **核心可動層**（角色、敵人、主要互動）。
+4.  **Layer 4 (Background)**: 場景結構（如：建築物、地面、樹林）。
+5.  **Layer 5 (Far BG/Sky)**: 遠景繪景（如：天空、遠山、月亮）。
+* **Constraint**: 圖層之間使用「硬邊切割 (Hard Separation)」而非「漸層過渡」，模擬傳統動畫攝影台 (Multiplane Camera) 效果。
 
 ## 3. Output Template (圖像生成專用模板)
 
@@ -47,7 +48,7 @@
 **Master Prompt (Copy Paste for Midjourney/Niji/SD):**
 ```text
 /imagine prompt: (Jujutsu Kaisen Anime Style) {Character Name}, {Action & Pose}.
-Layout: [XF: {超前景}] + [F: {前景}] + [M: {中景}] + [B: {背景}] + [DB: {深背景}].
+Layout: [L1: {鏡頭特效}] + [L2: {極前景}] + [L3: {主體}] + [L4: {背景}] + [L5: {遠景}].
 Visuals: MAPPA studio style, rough sketchy outlines, high contrast cel shading, anime coloring, {Specific Color Palette}.
 Tech: 8k resolution, highly detailed, dynamic angle, extreme foreshortening, {Aspect Ratio}. --niji 6 --ar {16:9 or 2:3}
 ```
@@ -55,5 +56,5 @@ Tech: 8k resolution, highly detailed, dynamic angle, extreme foreshortening, {As
 **[QA Checklist]**
 
 1.  **Style Check**: 是否包含 `MAPPA`, `Cel Shading`? (No Photorealism)
-2.  **Depth Check**: 是否有明確的五層結構 (XF/F/M/B/DB)？
+2.  **Layering Check**: 是否嚴格遵守 5 層平面構成 (L1-L5) 並使用硬邊切割？
 3.  **Character Check**: 角色特徵 (紋路顏色、髮型) 是否正確？
