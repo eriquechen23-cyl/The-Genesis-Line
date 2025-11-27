@@ -15,22 +15,22 @@
 **[STRICT ENFORCEMENT]** 為了確保世界觀一致性，所有涉及破壞、受傷或消亡的場景，**一律禁止**使用寫實的血肉 (gore)、血液 (blood)、骨骼或逼真的火焰/煙霧。
 
 * **核心定義 (Core Definition)**：這個世界的一切由數據構成。被擊敗不僅是物理損壞，而是「資訊原型 (Information Archetype)」的解構。
-* **顏色編碼 (Color Coding)**：
-    * **攻擊色 (Attack)**：保留 **紅色 (Red)** 給主角（如鋼川烈）的能量與爆炸紋路。
-    * **受傷/死亡色 (Damage/Death)**：強制規定 **青色/白色 (Cyan/White)** 用於所有受傷、噴濺物與死亡殘骸。
-* **通用替代方案 (Universal Replacement)**：
-    * **生物受擊/受傷**：傷口不會流血，而是逸散出 **青白雜訊粒子 (Cyan/White Glitch Particles)** 或 **光流 (Light Flow)**。
-    * **死亡/消滅**：目標必須崩解為 **青白數據方塊 (Cyan/White Voxel Debris)**、**鑽石塵 (Diamond Dust)** 並消散於空氣中。
-    * **爆炸/煙霧**：使用 **Ink/Liquid Style (水墨/液態)** 的能量爆發或 **幾何雲團**，嚴禁逼真的黑煙或火球。
-* **Prompt 關鍵字強制替換**：
-    * Blood -> `Cyan/White Glitch Particles`, `Digital sparks`, `Liquid light`.
-    * Gore/Flesh -> `Cyan/White Voxels`, `Data cubes`, `Wireframe exposure`.
-    * Smoke -> `Stylized ink smoke`, `Geometric clouds`.
+* **視覺升級：法則重寫與紋壓染色 (Pattern Rewrite & Line Color Tinting)**：
+    *   **基底解構 (Base Dissolution)**：使用 **深紫/墨黑色 (Deep Purple/Ink Black)** 的不規則線框或墨漬，模擬數據被「擦除」的虛無感。
+    *   **紋壓染色 (Energy Tint)**：崩解的粒子雲必須被 **攻擊者的紋路色 (Attacker's Line Color)** 點亮（如：烈=紅、戀花=粉、迅=綠）。
+*   **通用替代方案 (Universal Replacement)**：
+    *   **生物受擊/受傷**：傷口不會流血，而是噴濺出 **深紫色墨流 (Deep Purple Ink)** 與 **攻擊者顏色的光流 (Colored Light Flow)**。
+    *   **死亡/消滅**：目標崩解為 **黑色線框 (Dark Wireframes)**，並在核心處炸裂出 **對應屬性顏色的鑽石塵 (Colored Diamond Dust)**。
+    *   **爆炸/煙霧**：使用 **Ink/Liquid Style (水墨/液態)** 的能量爆發，嚴禁逼真的黑煙。
+*   **Prompt 關鍵字強制替換**：
+    *   Blood -> `Deep Purple Ink Splatters`, `Glowing {Color} Particles`, `Liquid Light`.
+    *   Gore/Flesh -> `Dark Wireframe Debris`, `Ink-Style Data Fragments`, `Crystallized Debris`.
+    *   Smoke -> `Stylized ink smoke`, `Geometric clouds`.
 
 ## 2. Composition Protocol: The "5-Layer Plane Composition" (五層平面構成法)
 **[MANDATORY]** 嚴格限制 Z 軸為 5 個平面圖層，以維持 2D 動畫的賽璐珞層次感 (Cel-Look)。
 
-1.  **Layer 1 (Lens/Screen)**: 貼在鏡頭上的特效（如：速度線、衝擊黑邊、UI 介面、**青白數據碎屑 (Cyan/White Voxel Debris)**）。
+1.  **Layer 1 (Lens/Screen)**: 貼在鏡頭上的特效（如：速度線、衝擊黑邊、UI 介面、**深色線框碎屑 (Dark Wireframe Debris)**）。
 2.  **Layer 2 (Extreme FG)**: 極前景掩體（如：模糊的飛石、飄過的火花、前景柱子）。
 3.  **Layer 3 (Subject/Mid)**: **核心可動層**（角色、敵人、主要互動）。
 4.  **Layer 4 (Background)**: 場景結構（如：建築物、地面、樹林）。
@@ -61,7 +61,7 @@ Tech: 8k resolution, highly detailed, dynamic angle, extreme foreshortening, {As
 1.  **Style Check**: 是否包含 `MAPPA`, `Cel Shading`? (No Photorealism)
 2.  **Layering Check**: 是否嚴格遵守 5 層平面構成 (L1-L5) 並使用硬邊切割？
 3.  **Character Check**: 角色特徵 (紋路顏色、髮型) 是否正確？
-4.  **Safety Check**: 是否使用 **青白數據方塊 (Cyan/White Voxels)** 取代血腥？(No Blood/Gore)
+4.  **Safety Check**: 是否使用 **深色線框與紋壓染色 (Dark Wireframe & Energy Tint)** 取代血腥？(No Blood/Gore)
 
 **[NEGATIVE PROMPT - MANDATORY]**
 (blood, gore, flesh, organic deformation, red liquid, realistic smoke, photorealistic, 3d render, cgi, volumetric lighting overdrive, plastic skin, uncanny valley, disfigured hands, extra fingers, missing limbs, blur, bokeh, depth of field abuse, text, watermark, low quality, jpeg artifacts, glitchy outlines, long static shots)

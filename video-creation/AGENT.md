@@ -31,17 +31,17 @@
 **[STRICT ENFORCEMENT]** 為了確保世界觀一致性，所有涉及破壞、受傷或消亡的場景，**一律禁止**使用寫實的血肉 (gore)、血液 (blood)、骨骼或逼真的火焰/煙霧。
 
 * **核心定義 (Core Definition)**：這個世界的一切由數據構成。被擊敗不僅是物理損壞，而是「資訊原型 (Information Archetype)」的解構。
-* **顏色編碼 (Color Coding)**：
-    * **攻擊色 (Attack)**：保留 **紅色 (Red)** 給主角（如鋼川烈）的能量與爆炸紋路。
-    * **受傷/死亡色 (Damage/Death)**：強制規定 **青色/白色 (Cyan/White)** 用於所有受傷、噴濺物與死亡殘骸。
-* **通用替代方案 (Universal Replacement)**：
-    * **生物受擊/受傷**：傷口不會流血，而是逸散出 **青白雜訊粒子 (Cyan/White Glitch Particles)** 或 **光流 (Light Flow)**。
-    * **死亡/消滅**：目標必須崩解為 **青白數據方塊 (Cyan/White Voxel Debris)**、**鑽石塵 (Diamond Dust)** 並消散於空氣中。
-    * **爆炸/煙霧**：使用 **Ink/Liquid Style (水墨/液態)** 的能量爆發或 **幾何雲團**，嚴禁逼真的黑煙或火球。
-* **Prompt 關鍵字強制替換**：
-    * Blood -> `Cyan/White Glitch Particles`, `Digital sparks`, `Liquid light`.
-    * Gore/Flesh -> `Cyan/White Voxels`, `Data cubes`, `Wireframe exposure`.
-    * Smoke -> `Stylized ink smoke`, `Geometric clouds`.
+* **視覺升級：法則重寫與紋壓染色 (Pattern Rewrite & Line Color Tinting)**：
+    *   **基底解構 (Base Dissolution)**：使用 **深紫/墨黑色 (Deep Purple/Ink Black)** 的不規則線框或墨漬，模擬數據被「擦除」的虛無感。
+    *   **紋壓染色 (Energy Tint)**：崩解的粒子雲必須被 **攻擊者的紋路色 (Attacker's Line Color)** 點亮（如：烈=紅、戀花=粉、迅=綠）。
+*   **通用替代方案 (Universal Replacement)**：
+    *   **生物受擊/受傷**：傷口不會流血，而是噴濺出 **深紫色墨流 (Deep Purple Ink)** 與 **攻擊者顏色的光流 (Colored Light Flow)**。
+    *   **死亡/消滅**：目標崩解為 **黑色線框 (Dark Wireframes)**，並在核心處炸裂出 **對應屬性顏色的鑽石塵 (Colored Diamond Dust)**。
+    *   **爆炸/煙霧**：使用 **Ink/Liquid Style (水墨/液態)** 的能量爆發，嚴禁逼真的黑煙。
+*   **Prompt 關鍵字強制替換**：
+    *   Blood -> `Deep Purple Ink Splatters`, `Glowing {Color} Particles`, `Liquid Light`.
+    *   Gore/Flesh -> `Dark Wireframe Debris`, `Ink-Style Data Fragments`, `Crystallized Debris`.
+    *   Smoke -> `Stylized ink smoke`, `Geometric clouds`.
 
 ---
 
@@ -51,7 +51,7 @@
 - **目的**：最大化單一鏡頭的作畫密度 (Sakuga Density)，強制將視覺指令切割為 5 個獨立且必須明確指令的層次。
 - **實施**：所有 **Video Prompt** 內，在 `動作 (Act & Beat)` 區塊的詳細描述中，必須使用 `[L#_Tag: 詳細描述]` 的格式來強制指定繪製圖層，**以取代或補充** 傳統的 `Layout` 描述，確保每個圖層的繪製指令獨立且精確。
 - **5 層次定義**：
-    - **L1 - 近場特效層 (Near-Field FX)**：創造深度，包含擬聲字 (SFX)、極端透視特寫（拳頭/武器）、向鏡頭噴濺的 **青白數據碎屑 (Cyan/White Voxel Debris)**。
+    - **L1 - 近場特效層 (Near-Field FX)**：創造深度，包含擬聲字 (SFX)、極端透視特寫（拳頭/武器）、向鏡頭噴濺的 **深色線框碎屑 (Dark Wireframe Debris) 與能量粒子**。
     - **L2 - 主體動作層 (Character Action)**：核心角色的精確動作、表情、紋路發光（最穩定的線稿層）。
     - **L3 - 核心衝擊層 (Core Impact FX)**：表現紋壓能量、屬性轉換和直接破壞的體積感，**必須使用 Ink/Liquid Style (水墨風格)** 來表現爆炸，避免寫實火光。
     - **L4 - 環境互動層 (Environment Interaction)**：角色動作對環境的二次影響（地面崩裂、碎石/殘骸飛濺、衝擊波激起的灰塵，**移除寫實塵土**）。
@@ -205,7 +205,7 @@ Master(15s｜Jujutsu Kaisen Style / MAPPA Aesthetics｜9:16｜24fps｜Dark Fanta
 | **4. Structure (結構)** | **15%** | 遵守 `Act 1 -> Act 2 -> Act 3`。 | 結構混亂 (-10分) |
 | **5. Continuity & Timing (連戲/節奏)** | **15%** | **Sakuga Protocol**: 總幕數 (Beats) 必須在 **15-22 幕**之間，並可依情節需求在各 Act 之間自由調整。使用微特寫銜接。 | **節奏拖沓、幕數 < 15 (-15分/重寫)** |
 | **6. Character (人設)** | **5%** | 角色特徵 (Glowing Lines/Outfit) 與 `character_profiles.md` 一致。 | 角色特徵錯誤 (-5分) |
-| **7. FX/Physics (物理)** | **5%** | 是否使用 **青白數據方塊 (Cyan/White Voxels)** 取代血腥？ | 出現寫實血腥 (Blood/Gore/Red Liquid) 則 **重寫** (-5分) |
+| **7. FX/Physics (物理)** | **5%** | 是否使用 **深色線框與紋壓染色 (Dark Wireframe & Energy Tint)** 取代血腥？ | 出現寫實血腥 (Blood/Gore/Red Liquid) 則 **重寫** (-5分) |
 
 ### 6.2 The Iteration Logic (迭代邏輯)
 * **Score < 85** 或 **觸發 Critical Penalty**：
