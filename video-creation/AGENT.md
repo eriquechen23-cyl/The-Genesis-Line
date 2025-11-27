@@ -116,7 +116,7 @@ Master(15s｜Jujutsu Kaisen Style / MAPPA Aesthetics｜9:16｜24fps｜Dark Fanta
 | 維度 | 權重 | 評分 (0-100) | 檢核要點 |
 | --- | --- | --- | --- |
 | Style (風格) | 25% | {分數} | Cel Shading / Rough Lines / Manga Aesthetics 是否到位？ |
-| Layering (圖層密度) | **20%** | **{分數}** | **每個 Beat 必須使用 L1-L5 標籤描述圖層，確保單幕資訊量最大化。** |
+| Layering (Z-Axis 5-Layer Cap) | **20%** | **{分數}** | **嚴格遵守 5 層平面構成 (Layer 1-5)，禁止無限景深與過度 3D 化。** |
 | Camera (運鏡) | 15% | {分數} | 是否使用 Z 軸縱深、Obari 透視，避免平面橫捲？ |
 | Structure (結構) | 15% | {分數} | 三幕節奏是否成立？**是否符合 Sakuga Density (15-22 Beats)？** |
 | Continuity & Timing (連戲/節奏) | 15% | {分數} | **是否拆解為微觀特寫？總幕數 >= 15？** |
@@ -126,9 +126,14 @@ Master(15s｜Jujutsu Kaisen Style / MAPPA Aesthetics｜9:16｜24fps｜Dark Fanta
 
 **[STYLE BLOCK - MANDATORY INCLUDE]**
 畫面風格：MAPPA Animation Style，Rough Sketchy Lines (粗獷線條)，High Contrast Cel Shading (高反差賽璐珞)。
-空間佈局 (Spatial Layout)：
-- 多層景深 (Deep Depth of Field)：區分 [Foreground: 模糊前景/特效] -> [Midground: 聚焦主體] -> [Background: 透視延伸]。
-- 體積感 (Volume)：角色與怪物具備 3D 體積感 (Three-quarter view/Extreme Angle)，避免平面貼圖感。
+**[SPATIAL LAYOUT: MAX 5 LAYERS]**
+嚴格限制 Z 軸為 5 個平面圖層，以維持 2D 動畫的賽璐珞層次感 (Cel-Look)：
+1.  **Layer 1 (Lens/Screen)**: 貼在鏡頭上的特效（如：速度線、衝擊黑邊、UI 介面）。
+2.  **Layer 2 (Extreme FG)**: 極前景掩體（如：模糊的飛石、飄過的火花、前景柱子）。
+3.  **Layer 3 (Subject/Mid)**: **核心可動層**（角色、敵人、主要互動）。
+4.  **Layer 4 (Background)**: 場景結構（如：建築物、地面、樹林）。
+5.  **Layer 5 (Far BG/Sky)**: 遠景繪景（如：天空、遠山、月亮）。
+* **Constraint**: 圖層之間使用「硬邊切割 (Hard Separation)」而非「漸層過渡」，模擬傳統動畫攝影台 (Multiplane Camera) 效果。
 鏡頭語言 (Angle & Continuity)：強調 Z 軸縱深 (Z-Axis Depth) 與透視變形 (Foreshortening)，禁止平面橫捲視角。
 漫畫特效：高潮段落疊加網點 (Screen Tone) 與放射狀速度線 (Converging Speed Lines)，擬聲字 (Katakana SFX) 3D 漂浮。
 光影設定：Moody Low-key Lighting (低調光)，Deep Blue/Purple Shadows (冷色陰影)，Volumetric Lighting (體積光)。
@@ -192,7 +197,7 @@ Master(15s｜Jujutsu Kaisen Style / MAPPA Aesthetics｜9:16｜24fps｜Dark Fanta
 | 維度 (Dimension) | 權重 | 通過標準 (Pass Criteria) | 扣分項 (Penalty) |
 | :--- | :--- | :--- | :--- |
 | **1. Style (風格)** | **25%** | 必須包含 `Cel Shading`, `Rough Lines`, `Manga Aesthetics`。 | 出現 `Photorealistic` (-25分/重寫) |
-| **2. Layering (圖層密度)** | **20%** | **每個 Beat 必須使用 L1-L5 標籤描述圖層，確保單幕資訊量最大化。** | **未使用 L# 標籤或圖層描述少於 3 層 (-20分/重寫)** |
+| **2. Layering (Z-Axis 5-Layer Cap)** | **20%** | **嚴格遵守 5 層平面構成 (Layer 1-5)，禁止無限景深。** | **超過 5 層或出現 3D 漸層過渡 (-20分/重寫)** |
 | **3. Camera (運鏡)** | **15%** | 具備 Z 軸縱深 (Foreshortening) 或 Obari Perspective。 | 平面視角 (-15分/重寫) |
 | **4. Structure (結構)** | **15%** | 遵守 `Act 1 -> Act 2 -> Act 3`。 | 結構混亂 (-10分) |
 | **5. Continuity & Timing (連戲/節奏)** | **15%** | **Sakuga Protocol**: 總幕數 (Beats) 必須在 **15-22 幕**之間，並可依情節需求在各 Act 之間自由調整。使用微特寫銜接。 | **節奏拖沓、幕數 < 15 (-15分/重寫)** |
