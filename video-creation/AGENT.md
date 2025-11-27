@@ -27,6 +27,19 @@
 * **Prompt Keyword**: 在 Master Prompt 中加入 `Japanese Dialogue`, `Talking in Japanese`。
 * **Text Output**: 輸出劇本的 `Dialogue` 欄位必須是日文原文 (包含漢字與假名)。
 
+### 1.3 The Genesis Line Destruction Protocol (創世紋路破壞協議) [CRITICAL]
+**[STRICT ENFORCEMENT]** 為了確保世界觀一致性，所有涉及破壞、受傷或消亡的場景，**一律禁止**使用寫實的血肉 (gore)、血液 (blood)、骨骼或逼真的火焰/煙霧。
+
+* **核心定義**：這個世界的一切由數據構成。被擊敗不僅是物理損壞，而是「資訊原型 (Information Archetype)」的解構。
+* **通用替代方案 (Universal Replacement)**：
+    * **生物受擊/受傷**：傷口不會流血，而是逸散出 **資訊粒子 (Information Particles)**、**雜訊 (Glitch)** 或 **光流 (Light Flow)**。
+    * **死亡/消滅**：目標必須崩解為 **數據方塊 (Voxel Debris)**、**鑽石塵 (Diamond Dust)** 或 **幾何碎片 (Geometric Shatter)** 並消散於空氣中。
+    * **爆炸/煙霧**：使用 **Ink/Liquid Style (水墨/液態)** 的能量爆發或 **幾何雲團**，嚴禁逼真的黑煙或火球。
+* **Prompt 關鍵字強制替換**：
+    * Blood -> `Glowing particles`, `Digital sparks`, `Liquid light`.
+    * Gore/Flesh -> `Data cubes`, `Wireframe exposure`, `Crystallized debris`.
+    * Smoke -> `Stylized ink smoke`, `Geometric clouds`.
+
 ---
 
 ## 2. 分鏡與圖層規範 (Layering & Framing Protocol) **[修訂與新增]**

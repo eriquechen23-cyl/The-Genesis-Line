@@ -33,24 +33,37 @@
 ---
 
 ## 2. Visual Constitution (視覺憲法)
-**(適用於 Layer 3 & Layer 4)**
+**(適用於 Layer 2, Layer 3 & Layer 4)**
 
-### 2.1 The "No-Photorealism" Law
+### 2.1 The "No-Photorealism" Law (非寫實鐵律)
 嚴禁寫實風格。所有輸出必須是 **MAPPA Anime Style / Cel Shading**。
 
-### 2.2 The "5-Layer Extreme Depth" Rule (五層極致景深法則) [UPDATED!]
+### 2.2 The Genesis Line Destruction Protocol (創世紋路破壞協議) [CRITICAL UPDATE]
+**[STRICT ENFORCEMENT]** 為了確保世界觀一致性，所有涉及破壞、受傷或消亡的場景，**一律禁止**使用寫實的血肉 (gore)、血液 (blood)、骨骼或逼真的火焰/煙霧。
+
+* **核心定義**：這個世界的一切由數據構成。被擊敗不僅是物理損壞，而是「資訊原型 (Information Archetype)」的解構。
+* **通用替代方案 (Universal Replacement)**：
+    * **生物受擊/受傷**：傷口不會流血，而是逸散出 **資訊粒子 (Information Particles)**、**雜訊 (Glitch)** 或 **光流 (Light Flow)**。
+    * **死亡/消滅**：目標必須崩解為 **數據方塊 (Voxel Debris)**、**鑽石塵 (Diamond Dust)** 或 **幾何碎片 (Geometric Shatter)** 並消散於空氣中。
+    * **爆炸/煙霧**：使用 **Ink/Liquid Style (水墨/液態)** 的能量爆發或 **幾何雲團**，嚴禁逼真的黑煙或火球。
+* **Prompt 關鍵字強制替換**：
+    * Blood -> `Glowing particles`, `Digital sparks`, `Liquid light`.
+    * Gore/Flesh -> `Data cubes`, `Wireframe exposure`, `Crystallized debris`.
+    * Smoke -> `Stylized ink smoke`, `Geometric clouds`.
+
+### 2.3 The "5-Layer Extreme Depth" Rule (五層極致景深法則)
 **無論是影片或靜態圖，Prompt 必須明確描述五層結構，以創造最大的 Z 軸深度。**
 
 1.  **【超前景 (Extreme Foreground - XF)】**：貼近鏡頭，通常是強烈模糊、用作畫面遮擋或光影過濾器。
-    * *元素範例*：特寫到失焦的血滴、光暈、巨大肢體邊緣、高速粒子流。
+    * *元素範例*：特寫到失焦的**資訊粒子**、光暈、巨大肢體邊緣。
 2.  **【前景 (Foreground - F)】**：近距離元素，用於建立即時空間感。
-    * *元素範例*：飛濺的碎石、火花、武器尖端、主角的特寫手部。
+    * *元素範例*：飛濺的**數據碎片**、火花、武器尖端。
 3.  **【中景 (Midground - M)】**：核心動作與視覺焦點。
     * *元素範例*：角色本體 (Action Pose)、關鍵衝突點。
 4.  **【背景 (Background - B)】**：環境細節與戰場氛圍。
-    * *元素範例*：崩塌的建築、敵人主體、遠處的爆炸殘光。
+    * *元素範例*：崩塌的建築、敵人主體、遠處的**能量殘光**。
 5.  **【深背景 (Deep Background - DB)】**：最遠的景物，強調宏大尺度。
-    * *元素範例*：地平線、天空、厚重的雲層、扭曲的創世間隙。
+    * *元素範例*：地平線、天空、扭曲的創世間隙。
 
 **[Prompt 結構範例]**
 > `Layout: [XF: Heavily blurred red smoke] -> [F: Flying shrapnel] -> [M: Retsu punching core] -> [B: Collapsing wall] -> [DB: Ominous horizon].`
