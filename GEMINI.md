@@ -43,9 +43,14 @@
 
 * **核心定義**：這個世界的一切由數據構成。被擊敗不僅是物理損壞，而是「資訊原型 (Information Archetype)」的解構。
 * **通用替代方案 (Universal Replacement)**：
-    * **生物受擊/受傷**：傷口不會流血，而是逸散出 **資訊粒子 (Information Particles)**、**雜訊 (Glitch)** 或 **光流 (Light Flow)**。
+    * **生物受擊反應 (Creature Damage Response)**:
+        * **數據逸散 (Data Dissipation)**：在這個世界中，生物（包括使徒、敵人與野獸）受傷時，傷口 नही流出傳統的血液或任何液體。
+        * **視覺效果**：取而代之的是，受創區域會 **逸散出資訊方塊 (Information Cubes)** 與 **破碎的數據微粒 (Fragmented Data Particles)**，如同物理結構被暫時反編譯。
+        * **色彩規則**：
+            * 逸散出的方塊與微粒，其基礎顏色為 **帶有透明度的賽博青 (Cyber Cyan with transparency)**，象徵著世界底層的 **「原始代碼 (Raw Code)」**。
+            * 同時，其中會夾雜著 **攻擊者「紋路」屬性的高亮光流 (Glowing light streams matching the attacker's "Line" attribute)**，用以體現力量的碰撞與法則的干涉。
     * **死亡/消滅**：目標必須崩解為 **數據方塊 (Voxel Debris)**、**鑽石塵 (Diamond Dust)** 或 **幾何碎片 (Geometric Shatter)** 並消散於空氣中。
-    * **爆炸/煙霧**：使用 **Ink/Liquid Style (水墨/液態)** 的能量爆發或 **幾何雲團**，嚴禁逼真的黑煙或火球。
+    * **爆炸/煙霧**：使用 **Ink/Liquid Style (水墨/液態)** 的能量爆發或 **幾何雲團**，嚴禁逼真的黑煙。
 * **Prompt 關鍵字強制替換**：
     * Blood -> `Glowing particles`, `Digital sparks`, `Liquid light`.
     * Gore/Flesh -> `Data cubes`, `Wireframe exposure`, `Crystallized debris`.

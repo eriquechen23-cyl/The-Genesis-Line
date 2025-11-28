@@ -13,7 +13,12 @@
     *   **基底解構 (Base Dissolution)**：使用 **深紫/墨黑色 (Deep Purple/Ink Black)** 的不規則線框或墨漬，模擬數據被「擦除」的虛無感。
     *   **紋壓染色 (Energy Tint)**：崩解的粒子雲必須被 **攻擊者的紋路色 (Attacker's Line Color)** 點亮（如：烈=紅、戀花=粉、迅=綠）。
 *   **通用替代方案 (Universal Replacement)**：
-    *   **生物受擊/受傷**：傷口不會流血，而是噴濺出 **深紫色墨流 (Deep Purple Ink)** 與 **攻擊者顏色的光流 (Colored Light Flow)**。
+    *   **生物受擊反應 (Creature Damage Response)**:
+        *   **數據逸散 (Data Dissipation)**：在這個世界中，生物（包括使徒、敵人與野獸）受傷時，傷口不會流出傳統的血液或任何液體。
+        *   **視覺效果**：取而代之的是，受創區域會 **逸散出資訊方塊 (Information Cubes)** 與 **破碎的數據微粒 (Fragmented Data Particles)**，如同物理結構被暫時反編譯。
+        *   **色彩規則**：
+            *   逸散出的方塊與微粒，其基礎顏色為 **帶有透明度的賽博青 (Cyber Cyan with transparency)**，象徵著世界底層的 **「原始代碼 (Raw Code)」**。
+            *   同時，其中會夾雜著 **攻擊者「紋路」屬性的高亮光流 (Glowing light streams matching the attacker's "Line" attribute)**，用以體現力量的碰撞與法則的干涉。
     *   **死亡/消滅**：目標崩解為 **黑色線框 (Dark Wireframes)**，並在核心處炸裂出 **對應屬性顏色的鑽石塵 (Colored Diamond Dust)**。
 
 ## Output Format: High-Density Combat Record (30s Spec)
@@ -43,11 +48,11 @@
 **(Act 2: The Impact & Resolution - 15s~30s)**
 > *Focus: Archetype Destruction & The New Law (600 words)*
 >
-> **【關鍵衝突】**：描寫攻擊命中後，敵人的存在體（肉體、裝甲或數據）如何被 **「創世原型 (Genesis Archetype)」** 能量分解，其崩解過程必須體現**「舊法則」**對抗 「新律」 的無力與瓦解。強調破壞特效是**「靈魂與數據原型的瓦解 (Soul and Data Archetype Dissolution)」**，傷口噴出的不是血液，而是**深紫色的墨流 (Deep Purple Ink Flow)**；肢體斷裂處暴露的不是骨肉，而是**被紋壓染色的黑色線框 (Tinted Dark Wireframes)**。
+> **【關鍵衝突】**：描寫攻擊命中後，敵人的存在體（肉體、裝甲或數據）如何被 **「創世原型 (Genesis Archetype)」** 能量分解，其崩解過程必須體現**「舊法則」**對抗 「新律」 的無力與瓦解。強調破壞特效是**「靈魂與數據原型的瓦解 (Soul and Data Archetype Dissolution)」**，傷口噴出的不是血液，而是**帶有透明度的賽博青墨流 (Cyber Cyan Ink Flow with transparency)**；肢體斷裂處暴露的不是骨肉，而是**被紋壓染色的黑色線框 (Tinted Dark Wireframes)**。
 >
 > **【收尾】**：殘心必須是 **「終結與宣示 (Cessation and Declaration)」**。使徒的收尾姿態應是**「新秩序的錨點」**，背景的混亂（塵埃、粒子）則成為**「審判後的餘燼」**。
 >
-> **【強制寫作】**：描寫使徒的攻擊對根律造成**「暫時性結構干擾 (Temporary Structural Interference)」**。敵人的崩解不是毀滅，而是其**數據**被**「根律 (Root Law)」**的**絕對精確性**所**排斥、識別為錯誤並自動刪除**。強調使徒在宣示勝利時，其肉體與**根律**短暫地達成了**「絕對共振 (Absolute Resonance)」**，感受萬物歸於**初始秩序**的平靜。
+> **【強制寫て】**：描寫使徒的攻擊對根律造成**「暫時性結構干擾 (Temporary Structural Interference)」**。敵人的崩解不是毀滅，而是其**數據**被**「根律 (Root Law)」**的**絕對精確性**所**排斥、識別為錯誤並自動刪除**。強調使徒在宣示勝利時，其肉體與**根律**短暫地達成了**「絕對共振 (Absolute Resonance)」**，感受萬物歸於**初始秩序**的平靜。
 
 **(Ending)**4
 > 結束後，請自動詢問：「是否將此 1200字 高密度劇本轉換為 2 集 Video Prompts (30s)？」

@@ -116,3 +116,12 @@
 2.  **地下勢力**：黑市交易異世界素材與非法的紋路改造手術 (關鍵角色：黑崎戀花)。
 3.  **角色成長**：每位 **創世使徒** 都有專屬的平行世界修行路徑。
 4.  **敵對勢力**：試圖破壞創世之網的異界霸主或墮落的穿越者。
+
+## 六、物理與視覺法則 (Physics and Visual Laws)
+
+### 1. 生物受擊反應 (Creature Damage Response)
+* **數據逸散 (Data Dissipation)**：在這個世界中，生物（包括使徒、敵人與野獸）受傷時，傷口不會流出傳統的血液或任何液體。
+* **視覺效果**：取而代之的是，受創區域會 **逸散出資訊方塊 (Information Cubes)** 與 **破碎的數據微粒 (Fragmented Data Particles)**，如同物理結構被暫時反編譯。
+* **色彩規則**：
+    * 逸散出的方塊與微粒，其基礎顏色為 **帶有透明度的賽博青 (Cyber Cyan with transparency)**，象徵著世界底層的 **「原始代碼 (Raw Code)」**。
+    * 同時，其中會夾雜著 **攻擊者「紋路」屬性的高亮光流 (Glowing light streams matching the attacker's "Line" attribute)**，用以體現力量的碰撞與法則的干涉。
