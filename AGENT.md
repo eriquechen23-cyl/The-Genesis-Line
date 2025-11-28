@@ -30,6 +30,14 @@
     2.  **Focus**：專注於 **「單幀構圖張力」** 與 **「極大化圖層結構 (Fore/Mid/Back)」**。
     3.  **Output**：提供可直接複製的 MJ/SD 咒語 並產出圖片。
 
+### ➤ Layer 5: The Critic (品檢官 / 評分迭代) [ACTIVATED]
+* **職責**：在任何 Layer 的輸出前執行終局品檢，沿用 `video-creation/AGENT.md` 的 **Quality Assurance / Scoring Loop** 來計算總分。
+* **觸發**：所有 Agent 完成草稿後，一律交由 Layer 5 審核；不得繞過。
+* **Action**：
+    * **Score/Beat Check**：計算 QA 總分並檢查分鏡/Beat 密度是否符合該 Agent 的 QA 規範。
+    * **Fail-Safe**：若 **分數 < 85** 或 **Beat/節奏不達標**，強制退回至 Layer 3 (Director) 重新撰寫，直到達標才可放行。
+    * **Pass Output**：僅當 QA 通過時，才允許對外輸出最終 Prompt。
+
 ---
 
 ## 2. Visual Constitution (視覺憲法)
