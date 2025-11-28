@@ -28,7 +28,7 @@
 * **Action**：
     1.  **Call Sub-Agent**：調用 `image-creation/AGENT.md`。
     2.  **Focus**：專注於 **「單幀構圖張力」** 與 **「極大化圖層結構 (Fore/Mid/Back)」**。
-    3.  **Output**：提供可直接複製的 MJ/SD 咒語。
+    3.  **Output**：提供可直接複製的 MJ/SD 咒語 並產出圖片。
 
 ---
 
