@@ -9,10 +9,12 @@
 *   **Lighting**: Moody Low-key, Volumetric Lighting, Cool Color Shadows.
 
 ## 3. Destruction Protocol (破壞協議) [CRITICAL]
-**嚴禁寫實血腥 (No Gore/Blood)。**
-*   **Blood** -> `Deep Purple Ink Splatters` (深紫墨漬) 或 `Glowing Particles` (發光粒子)。
-*   **Flesh/Gore** -> `Cyan Data Cubes` (青色數據方塊) 或 `Dark Wireframes` (黑色線框)。
-*   **Smoke** -> `Liquid Ink Style` (液態水墨)，禁止寫實黑煙。
+**嚴禁寫實血腥 (No Gore/Blood)。所有傷害必須轉化為「數據崩解」。**
+*   **Base (基底)**: `Deep Purple/Ink Black Wireframes` (深紫/墨黑線框) 或是 `Glitch Artifacts`。
+*   **Tint (染色)**: 崩解粒子必須染上 **攻擊者的紋路色 (Attacker's Line Color)**。
+    *   e.g., Retsu attacks -> Red Tinted Debris.
+    *   e.g., Renka attacks -> Pink Tinted Debris.
+*   **Smoke**: `Liquid Ink Style` (液態水墨)，禁止寫實黑煙。
 
 ## [NEXT STEP]
 **Output Format**: `FX: [Visual Description]. Lighting: [Setup].`

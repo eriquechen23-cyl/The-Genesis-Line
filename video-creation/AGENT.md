@@ -10,21 +10,46 @@
 *   將劇本拆解為 15s 的片段 (Clip)。
 *   定義 Act 1/2/3 的節奏，確保總幕數 (Beats) 達到 **15-22 幕 (Sakuga Density)**。
 
-### Step 2: Component Call (組件調用)
-針對每一個 Beat，依序讀取以下規範來生成內容：
-1.  **空間與運鏡**：讀取 `components/cinematographer/AGENT.md` -> 取得 `[Layout]` 與 `[Camera]`。
-2.  **美術與特效**：讀取 `components/art-director/AGENT.md` -> 取得 `[FX]` 與 `[Lighting]`。
-3.  **聲音與台詞**：讀取 `components/sound-designer/AGENT.md` -> 取得 `[SFX]` 與 `[Dialogue]`。
+### Step 2: Component Call (組件調用 & Micro-QA)
+針對每一個 Beat，依序執行以下完整調用流程：
+1.  **空間與運鏡 (Cinematographer)**：
+    *   讀取 `components/cinematographer/AGENT.md`。
+    *   產出：`[Layout]` (L1-L5 結構) 與 `[Camera]` (運鏡術語)。
+2.  **美術與特效 (Art Director)**：
+    *   讀取 `components/art-director/AGENT.md`。
+    *   產出：`[FX]` (特效材質) 與 `[Lighting]` (光影設定)。
+3.  **聲音與台詞 (Sound Designer)**：
+    *   讀取 `components/sound-designer/AGENT.md`。
+    *   產出：`[SFX]` (擬聲字) 與 `[Dialogue]` (日語台詞)。
+4.  **單幕品檢 (Beat Inspector)**：
+    *   讀取 `components/beat-inspector/AGENT.md`。
+    *   執行：**Micro-QA** 檢查。
+    *   產出：`[PASS]` 或 `[REJECT]`。
+    *   *若結果為 REJECT，立即重寫該 Beat。*
 
 ### Step 3: Assembly (組裝)
-將上述組件的產出，填入 **Output Template**。
+將通過 Micro-QA 的組件產出，填入 **Output Template**。
 
-### Step 4: QA Gate (品檢)
-執行 Layer 5 評分。若分數 < 85，退回 Step 2 修正。
+### Step 4: Director Review (Macro-QA)
+當所有 Beats 拼接完成後，執行 Layer 5 總體評分。若總分 < 85，退回 Step 2 修正特定 Beat。
+
+## 3. The Critic (Layer 5 QA Protocol)
+**[MANDATORY CHECK]** 在輸出 Prompt 前，必須依據以下標準進行自我評分：
+
+| 維度 | 權重 | 評分標準 |
+| :--- | :--- | :--- |
+| **Style (風格)** | 25% | 符合 MAPPA/JJK 風格，無寫實感。 |
+| **Layering (層次)** | 20% | 嚴格遵守 5-Layer Z-Axis 結構。 |
+| **Density (密度)** | 15% | 15s 內達到 15-22 Beats (Sakuga Standard)。 |
+| **Camera (運鏡)** | 15% | 運鏡動態且有多樣性 (Dolly, Orbit, Dutch)。 |
+| **Structure (結構)** | 15% | 起承轉合完整 (Setup -> Impact -> Resolution)。 |
+| **FX/Audio (聲光)** | 10% | 特效符合破壞協議，音效與台詞完整。 |
+
+> **Pass Line**: 總分必須 > 85 分。
 
 ---
 
-## 2. Output Template (最終產出格式)
+## 4. Output Template (最終產出格式)
 
 # Video Prompt: {Slug} (Ep {N})
 
@@ -33,7 +58,7 @@
 Master(15s｜Jujutsu Kaisen Style / MAPPA Aesthetics｜9:16｜24fps｜Dark Fantasy Action｜Japanese Voice)
 「{環境描述}。**[Worldview Loading]**: {關鍵字}。
 **[Music]**: {From Sound Designer (Global)}
-主角：**{角色名}**。
+主角：**{角色名}** (CV: {Voice Type/Archetype})。
 動作 (Act & Beat)：
 
 **Act 1: Setup (0-5s)**
@@ -50,10 +75,19 @@ Master(15s｜Jujutsu Kaisen Style / MAPPA Aesthetics｜9:16｜24fps｜Dark Fanta
 **Act 3: Resolution (10-15s)**
 *   ... (Repeat for all beats)
 
-**[QA SCORING BLOCK]**
-> **總分**: {Score}/100 (必須 > 85)
-
 **[STYLE BLOCK]**
 {From Art Director's Style Rules}
 **[SPATIAL LAYOUT]**
 {From Cinematographer's 5-Layer Rules}
+
+**[QA SCORING BLOCK]**
+| 維度 | 權重 | 評分 (0-100) | 檢核要點 |
+| --- | --- | --- | --- |
+| Style | 25% | {Score} | {Comment} |
+| Layering | 20% | {Score} | {Comment} |
+| Density | 15% | {Score} | {Comment} |
+| Camera | 15% | {Score} | {Comment} |
+| Structure | 15% | {Score} | {Comment} |
+| FX/Audio | 10% | {Score} | {Comment} |
+> **總分**: {Total}/100 (必須 > 85)
+
