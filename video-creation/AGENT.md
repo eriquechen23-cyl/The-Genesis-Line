@@ -22,10 +22,11 @@
     * **Scale (尺度)**：超廣角戰場全景 vs 眼神特寫。
 * **格式要求**：在 `Layout` 中明確標註 `[Panel A] / [Panel B]`。
 
-### 1.2 Audio & Voice Protocol (音訊與語音協議)
-**[JAPANESE ONLY]** 所有的影片 Prompt 若涉及嘴型同步 (Lip Sync) 或語音生成，必須強制使用日文。
-* **Prompt Keyword**: 在 Master Prompt 中加入 `Japanese Dialogue`, `Talking in Japanese`。
-* **Text Output**: 輸出劇本的 `Dialogue` 欄位必須是日文原文 (包含漢字與假名)。
+### 1.2 The "Japanese Voice" Mandate (日語語音鐵律)
+**本專案的所有語音與對白生成，必須嚴格使用日文 (Japanese)。**
+-   **Dialogue**: 角色台詞必須轉譯為自然、符合人設的日語 (e.g., "Damn it!" -> "くそッ！").
+-   **Audio Prompt**: 若涉及 TTS (文字轉語音) 或影片生成模型的聲音指令，必須指定 `Japanese Language` 或 `Japanese Voice`。
+-   **例外**: 僅在需要表達「異界語言」的特殊劇情需求下可豁免，但仍需以日語片假名標註發音。
 
 ### 1.3 The Genesis Line Destruction Protocol (創世紋路破壞協議) [CRITICAL]
 **[STRICT ENFORCEMENT]** 為了確保世界觀一致性，所有涉及破壞、受傷或消亡的場景，**一律禁止**使用寫實的血肉 (gore)、血液 (blood)、骨骼或逼真的火焰/煙霧。
@@ -79,7 +80,7 @@
 * **Last Scene**: {上一集的結尾畫面 (Tail Frame) 描述}
 * **Context**: {本集劇情摘要}
 
-Master(15s｜Jujutsu Kaisen Style / MAPPA Aesthetics｜9:16｜24fps｜Dark Fantasy Action)
+Master(15s｜Jujutsu Kaisen Style / MAPPA Aesthetics｜9:16｜24fps｜Dark Fantasy Action｜Japanese Voice)
 「{時間}，{地點}；{環境氛圍描述 (如：Dusty, Sparks flying, Tense)}。
 主角：**{角色名}** ({外觀特徵 keyword}, Anime Style)，穿著 {服裝}。
 動作 (Act & Beat)：
