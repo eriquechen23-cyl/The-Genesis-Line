@@ -28,7 +28,7 @@
 * **Action**：
     1.  **Call Sub-Agent**：調用 `image-creation/AGENT.md`。
     2.  **Focus**：專注於 **「單幀構圖張力」** 與 **「極大化圖層結構 (Fore/Mid/Back)」**。
-    3.  **Output**：提供可直接複製的 MJ/SD 咒語 並產出圖片。
+    3.  **Output**：直接請 AGENT 生成圖片。
 
 ### ➤ Layer 5: The Critic (品檢官 / 評分迭代) [ACTIVATED]
 * **職責**：在任何 Layer 的輸出前執行終局品檢，沿用 `video-creation/AGENT.md` 的 **Quality Assurance / Scoring Loop** 來計算總分。
