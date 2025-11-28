@@ -14,11 +14,11 @@
 *   **Speed**: "シュバッ" (SHUBA)
 *   **Electricity**: "バリバリ" (BARIBARI)
 
-## 4. Music Protocol (BGM 生成協議) [NEW]
-*   為每個片段定義音樂風格，供 Suno/Udio 使用。
+## 4. Music Protocol (Global / Per Clip)
+*   **僅在片段 (Clip) 開始時定義一次**，不需每個 Beat 重複。
 *   **Structure**: `[Genre], [BPM], [Mood], [Instruments]`.
 *   **Example**: `Industrial Techno, 140 BPM, High Tension, Heavy Synth Bass & Distorted Drums`.
 
 ## [NEXT STEP]
-**Output Format**: `SFX: "[Katakana]" (Meaning). Dialogue: "[Japanese]". Music: [BGM Prompt].`
+**Output Format (Per Beat)**: `SFX: "[Katakana]" (Meaning). Dialogue: "[Japanese]".`
 **Action**: 將產出的音效資料回傳給 **The Director** 進行最終組裝。

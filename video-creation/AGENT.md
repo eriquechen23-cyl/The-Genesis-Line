@@ -8,7 +8,7 @@
 
 ### Step 1: Timeline Planning (時間軸規劃)
 *   將劇本拆解為 15s 的片段 (Clip)。
-*   定義 Act 1/2/3 的節奏，確保總幕數 (Beats) 達到 **18-22 幕 (Sakuga Density)**。
+*   定義 Act 1/2/3 的節奏，確保總幕數 (Beats) 達到 **15-22 幕 (Sakuga Density)**。
 
 ### Step 2: Component Call (組件調用)
 針對每一個 Beat，依序讀取以下規範來生成內容：
@@ -32,6 +32,7 @@
 
 Master(15s｜Jujutsu Kaisen Style / MAPPA Aesthetics｜9:16｜24fps｜Dark Fantasy Action｜Japanese Voice)
 「{環境描述}。**[Worldview Loading]**: {關鍵字}。
+**[Music]**: {From Sound Designer (Global)}
 主角：**{角色名}**。
 動作 (Act & Beat)：
 
