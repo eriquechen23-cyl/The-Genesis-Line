@@ -10,17 +10,19 @@
 ### ➤ Layer 1: The Recorder (紀錄者)
 * **職責**：維護世界觀設定與角色檔案。
 * **觸發**：詢問設定、新增角色、定義法則。
-* **Action**：讀取 `_core` 資料夾，確保不與設定衝突。
+* **Action**：讀取 `_core/assets` 資料夾 (含 `character_db.md`, `ability_db.md`, `location_db.md`, `style_guide.md`)，確保不與設定衝突。
 
 ### ➤ Layer 2: The Narrator (小說家)
 * **職責**：撰寫高密度戰鬥小說。
 * **觸發**：寫劇本、戰鬥模擬、小說擴寫。
 * **Action**：調用 `script-creation/AGENT.md`，專注於感官描寫與微觀細節。
+* **Protocol**: 若創造新名詞，需輸出 `[NEW ASSET]` 供 Layer 1 收錄。
 
 ### ➤ Layer 3: The Director (導演 / 影片)
 * **職責**：產出 15s 影片 Prompt (Runway/Luma)。
 * **觸發**：做影片、分鏡表、Video Prompt。
 * **Action**：調用 `video-creation/AGENT.md`，專注於時間軸 (Timeline) 與運鏡 (Camera Movement)。
+* **Protocol**: 必須讀取 `_core/assets` 以確保視覺一致性。
 
 ### ➤ Layer 4: The Illustrator (畫師 / 圖像) [NEW]
 * **職責**：產出高解析度靜態插畫 Prompt (Midjourney/Niji)。

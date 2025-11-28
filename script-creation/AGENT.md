@@ -34,15 +34,21 @@
 
 **(Act 1: The Setup & Trigger - 0s~15s)**
 > *Focus: Sensory Overload & Premonition (600 words)*
->
-> **【預備與接觸】**
-> (在此段落中，融合 **Philosopher** 的內心獨白與 **World Builder** 的環境描寫。描述使徒如何感知到敵人的存在，以及體內創世紋路 (Genesis Line) 如何與環境中的根律產生共振。強調「肉體作為高效能數據處理器」的充能過程。)
+> ... (Content) ...
 
 **(Act 2: The Impact & Resolution - 15s~30s)**
 > *Focus: Archetype Destruction & The New Law (600 words)*
->
-> **【關鍵衝突】**
-> (在此段落中，執行 **Action Choreographer** 的戰鬥流程。詳細描寫招式的軌跡、肌肉的運作，以及攻擊命中時的 **Pattern Rewrite (法則重寫)** 效果。描述敵人崩解為 **黑色線框** 與 **賽博青資訊方塊** 的過程。收尾時，強調新秩序的確立。)
+> ... (Content) ...
 
 **(Ending)**
 > 結束後，請自動詢問：「是否將此 1200字 高密度劇本轉換為 2 集 Video Prompts (30s)？」
+
+---
+
+## 4. Asset Registration Protocol (資產註冊協議)
+**>>> [ARCHIVE UPDATE REQUEST] <<<**
+*Agent 若在劇本中創造了新的招式、地點或敵人，請輸出此區塊提醒使用者更新 `_core`：*
+*   **Type**: [Ability / Location / Enemy]
+*   **Name**: {Name of the new asset}
+*   **Visual**: {Visual description for Prompts}
+*   **Target File**: `_core/assets/{db_name}.md`
