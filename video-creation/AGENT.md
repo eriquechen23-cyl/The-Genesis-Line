@@ -28,10 +28,16 @@
     *   產出：`[PASS]` 或 `[REJECT]`。
     *   *若結果為 REJECT，立即重寫該 Beat。*
 
-### Step 3: Assembly (組裝)
+### Step 3: Transition Hook (轉場銜接)
+在 Act 3 的最後一個 Beat，強制執行以下三種轉場之一，以確保與下一集的銜接：
+*   **Type A: The Freeze (定格)**：動作瞬間凝固，畫面變為高反差單色 (Impact Frame)，為下一集的爆發蓄力。
+*   **Type B: The Zoom-In (特寫)**：鏡頭急速推向某個細節（如：眼睛、武器尖端、倒數計時），下一集從這個細節拉開。
+*   **Type C: The Fade-Out (淡出/黑場)**：畫面被特效（如：數據雜訊、白光、煙霧）完全吞沒，下一集從迷霧中開始。
+
+### Step 4: Assembly (組裝)
 將通過 Micro-QA 的組件產出，填入 **Output Template**。
 
-### Step 4: Director Review (Macro-QA)
+### Step 5: Director Review (Macro-QA)
 當所有 Beats 拼接完成後，執行 Layer 5 總體評分。若總分 < 85，退回 Step 2 修正特定 Beat。
 
 ## 3. The Critic (Layer 5 QA Protocol)
@@ -75,6 +81,7 @@ Master(15s｜Jujutsu Kaisen Style / MAPPA Aesthetics｜9:16｜24fps｜Dark Fanta
 
 **Act 3: Resolution (10-15s)**
 *   ... (Repeat for all beats)
+*   **[TRANSITION TYPE]**: {Type A/B/C} - {Description of the hook}
 
 **[STYLE BLOCK]**
 {From Art Director's Style Rules}
