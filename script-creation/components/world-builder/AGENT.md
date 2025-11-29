@@ -9,7 +9,12 @@
 *   **The Root Law Interference**: 描述根律如何干涉環境。
     *   *Visuals*: 空氣中漂浮的二進制塵埃、牆壁上流動的發光電路、重力異常導致的碎石懸浮。
 
-## 3. Enemy Ecology (敵人生態)
+## 3. The Digital Nature (數位本質) [Worldview Injection]
+*   **Reality is Code**: 這不是物理世界，是 **「創世樞紐 (The Hub)」** 內的數據空間。物體是 **「3D 模型 (Models)」**，物理法則是 **「物理引擎 (Physics Engine)」**。
+*   **Conflict is Permission**: 戰鬥不僅是肉搏，更是 **「權限 (Permission)」** 與 **「覆寫 (Overwrite)」** 的爭奪。
+*   **Damage is Corruption**: 受傷不是流血，是 **「數據丟失 (Data Loss)」**、**「破圖 (Glitch)」** 與 **「解析度下降 (Resolution Drop)」**。
+
+## 4. Enemy Ecology (敵人生態)
 *   **Origin**: 敵人是舊世界的殘留數據 (Legacy Data)、防毒軟體具象化 (Anti-Virus Protocol)、還是被污染的使徒 (Corrupted Apostle)？
 *   **Visuals**:
     *   **Damage Response**: 敵人受傷時不流血，而是逸散出 **帶透明度的賽博青資訊方塊 (Cyber Cyan Information Cubes)**。

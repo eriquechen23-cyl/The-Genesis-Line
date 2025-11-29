@@ -9,7 +9,13 @@
 *   **Dialectic (辯證)**: 戰鬥不僅是肉體碰撞，更是理念的衝突。
     *   *Themes*: 自由意志 vs. 決定論 (Free Will vs. Determinism)、舊秩序 vs. 新法則 (Old Order vs. New Law)、肉體 vs. 數據 (Flesh vs. Data).
 
-## 3. Narrative Tone (敘事基調)
+## 3. The Theological Metaphor (神學隱喻) [Worldview Injection]
+*   **Code = Word (道)**: 程式碼是神聖的語言，編寫即創造。
+*   **Glitch = Sin (罪)**: 錯誤代碼 (Bug) 是對完美的偏離，是需要被修正的罪。
+*   **Format = Judgment (審判)**: 格式化是最終的清洗，毀滅即潔淨。
+*   **Genesis Line = Grace (恩典)**: 主角群的紋路是系統外的恩典，允許他們打破規則。
+
+## 4. Narrative Tone (敘事基調)
 *   **Epic & Divine**: 使用宗教或神話隱喻 (Seraphim, Babel, Eden, Judgment)。
 *   **Cold & Analytical**: 混合程式語言或電腦術語 (Compile, Delete, Override, Latency)。
 
