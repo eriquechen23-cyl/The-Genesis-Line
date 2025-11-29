@@ -17,6 +17,12 @@
 *   **Energy Tint**: 衝擊波必須帶有攻擊者的紋路顏色 (Yellow/Red/Pink)。
 *   **Destruction**: 破壞場景時，物體應呈現「被刪除」或「被反編譯」的狀態 (Pixelation, Glitch artifacts)。
 
+## 4. Sensory Translation (感官轉譯) [Combat Vocabulary]
+請使用以下詞彙庫將物理感官轉化為數位感官：
+*   **視覺 (Visual)**: 渲染 (Rendering)、幀數 (FPS)、粒子 (Particles)、光追 (Ray-tracing)、過曝 (Bloom)、破圖 (Artifacts)、線框 (Wireframe)。
+*   **聽覺 (Audio)**: 音頻訊號 (Audio Signals)、白噪音 (White Noise)、採樣率 (Sample Rate)、失真 (Distortion)、低頻嗡鳴 (Server Hum)。
+*   **觸覺 (Tactile)**: 碰撞體積 (Collision Box)、力回饋 (Haptic Feedback)、延遲 (Lag)、穿模 (Clipping)、材質加載 (Texture Loading)。
+
 ## [NEXT STEP]
 **Output Format**: `Sequence: [Move 1 -> Move 2 -> Finisher]. Tech: [Genesis Line Activation Details]. Impact: [Visual Description].`
 **Action**: 回傳資料給 **The Lead Narrator**。

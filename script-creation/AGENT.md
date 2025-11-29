@@ -11,10 +11,10 @@
 *   確認主角 (Squad/Character)、敵人 (Target) 與場景 (Location)。
 
 ### Step 2: Component Call (組件調用)
-依序讀取以下規範來生成素材：
-1.  **世界與敵人**：讀取 `components/world-builder/AGENT.md` -> 取得 `[Setting]`, `[Law]`, `[Enemy]`.
-2.  **動作與打擊**：讀取 `components/action-choreographer/AGENT.md` -> 取得 `[Sequence]`, `[Tech]`, `[Impact]`.
-3.  **哲學與內心**：讀取 `components/philosopher/AGENT.md` -> 取得 `[Theme]`, `[Monologue]`, `[Sensory]`.
+依序讀取以下規範來生成素材，**並確保各組件已注入世界觀 (Worldview Injection)**：
+1.  **世界與敵人**：讀取 `components/world-builder/AGENT.md` -> 取得 `[Setting]`, `[Law]`, `[Enemy]`, `[Digital Nature]`.
+2.  **動作與打擊**：讀取 `components/action-choreographer/AGENT.md` -> 取得 `[Sequence]`, `[Tech]`, `[Impact]`, `[Sensory Translation]`.
+3.  **哲學與內心**：讀取 `components/philosopher/AGENT.md` -> 取得 `[Theme]`, `[Monologue]`, `[Sensory]`, `[Theological Metaphor]`.
 
 ### Step 3: Assembly (組裝與撰寫)
 將上述素材融合，使用 **極具畫面感、五感豐富的小說筆法** 撰寫劇本。
@@ -23,7 +23,7 @@
 
 ---
 
-## 3. Output Format: High-Density Combat Record
+## 5. Output Format: High-Density Combat Record
 請嚴格模仿以下格式輸出：
 
 **【戰鬥模擬紀錄：創世紋路-GENESIS-{Squad_Number} 小隊 / {Character_Name}】**
@@ -31,21 +31,22 @@
 * **敵對目標**：{From World Builder}
 * **創世法則**：{From World Builder}
 * **敘事焦點**：{From Philosopher}
+* **[Worldview Loading]**: **Virtual Information World (虛擬資訊世界)**, Digital Glitch, Cyberpunk Data Space.
 
 **(Act 1: The Setup & Trigger - 0s~15s)**
 > *Focus: Sensory Overload & Premonition (600 words)*
-> ... (Content) ...
+> ... (Content: Describe the environment rendering, the glitching enemy, and the sensory translation of the threat.) ...
 
 **(Act 2: The Impact & Resolution - 15s~30s)**
 > *Focus: Archetype Destruction & The New Law (600 words)*
-> ... (Content) ...
+> ... (Content: Describe the Genesis Line overwriting the enemy's code, the visual effects of deletion/purification.) ...
 
 **(Ending)**
 > 結束後，請自動詢問：「是否將此 1200字 高密度劇本轉換為 2 集 Video Prompts (30s)？」
 
 ---
 
-## 4. Asset Registration Protocol (資產註冊協議)
+## 6. Asset Registration Protocol (資產註冊協議)
 **>>> [ARCHIVE UPDATE REQUEST] <<<**
 *Agent 若在劇本中創造了新的招式、地點或敵人，請輸出此區塊提醒使用者更新 `_core`：*
 *   **Type**: [Ability / Location / Enemy]

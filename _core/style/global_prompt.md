@@ -9,7 +9,7 @@
 Master({Duration}s｜Jujutsu Kaisen Style / MAPPA Aesthetics｜16:9｜24fps｜Dark Fantasy Action)
 「{時間/地點}；{環境氛圍 (Toon Render)}。
 主角：{角色名稱} ({User_Avatar_Description}，動漫化風格，帥氣男性)，穿著 {服裝}。
-動作 (Act & Beat)：{動作描述，請依照 Act 1 (Setup) -> Act 2 (Conflict) -> Act 3 (Climax) 結構撰寫，並標記 Beat}。
+動作 (Act & Beat)：{動作描述，請依照 Act 1 (Setup) -> Act 2 (Conflict) -> Act 3 (Climax) 結構撰寫，並標記 Beat 與精確時間 (t0.0s~t1.5s)}。
 畫面風格：MAPPA Animation Style，Rough Sketchy Lines (粗獷線條)，High Contrast Cel Shading (高反差賽璐珞)。
 空間佈局 (Spatial Layout)：
 - 多層景深 (Deep Depth of Field)：區分 [Foreground: 模糊前景/特效] -> [Midground: 交戰] -> [Background: 透視延伸]。
