@@ -14,11 +14,11 @@
 
 **[AUDIO & VOICE] (Sound Designer's Mix):**
 *   **CV**: Lucifer (Type: Aggressive / Commanding / Ref: Takahiro Sakurai)
-*   **Dialogue**: "システム・オーバーライド...開始 (System Override... Kaishi)."
-*   **Dialogue**: "法則書き換え (Housoku Kakikae)."
-*   **SFX**: "ズンッ！" (Beam Spawn)
-*   **SFX**: "ギギギ..." (Armor Morph)
-*   **SFX**: "ドッゴォォン！！" (Impact)
+*   **Dialogue**: "[t0.0s~t1.0s] システム・オーバーライド...開始 (System Override... Kaishi)."
+*   **Dialogue**: "[t5.0s~t6.5s] 法則書き換え (Housoku Kakikae)."
+*   **SFX**: "[t1.0s~t2.5s] ズンッ！" (Beam Spawn)
+*   **SFX**: "[t8.0s~t10.0s] ギギギ..." (Armor Morph)
+*   **SFX**: "[t12.5s~t13.5s] ドッゴォォン！！" (Impact)
 
 **Time-Coded Beats (Sora Guide):**
 *   **[00s-05s] Setup**: **[UI -> Tracking]**
@@ -41,6 +41,17 @@
 > At 10s, **[Sakuga Action]** he slashes the wall of light. **[Impact Frame]** The sword impact creates a massive black tear. Rainbow-colored data liquid sprays out like blood, splashing onto his face. Chains shoot out from the void to bind him.
 > **[Camera]**: Dynamic Tracking -> Shaky Cam -> Impact Zoom.
 > **[Style]**: Sakuga action, particle effects, glitch art, impact frames, high velocity.
+> **[Audio]**: CV: Takahiro Sakurai (Aggressive). Dialogue: "System Override... Kaishi" / "Housoku Kakikae". SFX: Laser Charging, Ceramic Clinking, Massive Explosion.
+
+**[TECHNICAL SPECS] (Render Config):**
+*   **Model**: Runway Gen-3 Alpha
+*   **Aspect Ratio**: --ar 16:9
+*   **Frame Rate**: 24fps
+*   **Motion Bucket**: --motion 8 (High Action)
+*   **Micro-QA**: [PASS] (Beat Inspector)
+
+**[NEGATIVE PROMPT] (Safety Protocol):**
+> (photorealistic), (3d render), (unreal engine), (hyperrealistic), (live action), (cinematic lighting), (8k photography), (bokeh), (depth of field), (ray tracing), (bad anatomy), (extra limbs), (missing fingers), (fused fingers), (bad hands), (mutated), (deformed), (blurry), (low quality), (jpeg artifacts), (text), (watermark), (signature), (username), (subtitles), (UI elements), (HUD), (loading bar), (blood), (gore), (red liquid), (viscera), (exposed organs).
 
 **[CRITIC'S VERDICT]**
 > **Score**: 97/100

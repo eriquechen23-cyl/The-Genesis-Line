@@ -32,7 +32,7 @@
 
 ## [NEXT STEP]
 **Output Format (Per Beat)**: 
-*   `SFX: "[Katakana]" (Meaning)`
-*   `Dialogue: "[Japanese]"`
+*   `[t{Start}s~t{End}s] SFX: "[Katakana]" (Meaning)`
+*   `[t{Start}s~t{End}s] Dialogue: "[Japanese]"`
 *   `CV: [Character Name] (Type: [Voice Type] / Ref: [Reference Archetype])`
 **Action**: 將產出的音效資料回傳給 **The Director** 進行最終組裝。

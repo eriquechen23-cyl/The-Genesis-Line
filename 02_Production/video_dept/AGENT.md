@@ -99,8 +99,8 @@
 
 **[AUDIO & VOICE] (Sound Designer's Mix):**
 *   **CV**: {Character Name} (Type: {Voice Type} / Ref: {Reference})
-*   **Dialogue**: "{Japanese Line}"
-*   **SFX**: "{Katakana}" ({Meaning})
+*   **Dialogue**: "[t{Start}s~t{End}s] {Japanese Line}"
+*   **SFX**: "[t{Start}s~t{End}s] {Katakana}" ({Meaning})
 
 **Time-Coded Beats (Sora Guide):**
 *   **[00s-05s] Setup**: **[{Shot Type}]** {Action & Camera}
@@ -111,6 +111,17 @@
 > {From Prompt Engineer: The Optimized Paragraph with Time Markers AND Shot Types}
 > **[Camera]**: {From Cinematographer}
 > **[Style]**: {From Art Director}
+> **[Audio]**: {From Sound Designer: SFX & Dialogue Summary}
+
+**[TECHNICAL SPECS] (Render Config):**
+*   **Model**: Runway Gen-3 Alpha
+*   **Aspect Ratio**: --ar 16:9
+*   **Frame Rate**: 24fps
+*   **Motion Bucket**: {Value} (Ref: 6-8 for Action, 3-4 for Dialogue)
+*   **Micro-QA**: {Pass/Fail} (Beat Inspector)
+
+**[NEGATIVE PROMPT] (Safety Protocol):**
+> {Global Negative Prompts from core/negative_prompt.md}
 
 **[CRITIC'S VERDICT]**
 > **Score**: {From Critic}/100

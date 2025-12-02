@@ -14,10 +14,11 @@
 
 **[AUDIO & VOICE] (Sound Designer's Mix):**
 *   **CV**: Lucifer (Type: Deep / Final Boss / Ref: Takahiro Sakurai)
-*   **Dialogue**: "我は...裁きだ (Ware wa... Sabaki da)."
-*   **SFX**: "ゴォォォ..." (Fall)
-*   **SFX**: "ドッゴォォン！！" (Impact)
-*   **SFX**: "ゴゴゴゴ..." (Throne Assemble)
+*   **Dialogue**: "[t2.0s~t3.0s] これは罰ではない...昇任だ (Kore wa batsu dewa nai... shounin da)."
+*   **Dialogue**: "[t12.0s~t13.0s] 我は...修正する (Ware wa... shuusei suru)."
+*   **SFX**: "[t0.0s~t1.5s] ゴォォォ..." (Fall)
+*   **SFX**: "[t5.0s~t6.0s] ドッゴォォン！！" (Impact)
+*   **SFX**: "[t12.5s~t14.0s] ゴゴゴゴ..." (Throne Assemble)
 
 **Time-Coded Beats (Sora Guide):**
 *   **[00s-05s] Setup**: **[High Angle -> Morph]**
@@ -25,7 +26,7 @@
     *   t1.5s~t3.0s: **[CU]** His white armor burns away, revealing black skin and gold veins.
     *   t3.0s~t5.0s: **[Action]** His wings burn and reshape into sharp, black crystalline shards.
 *   **[05s-10s] Action**: **[Impact -> Rise]**
-    *   t5.0s~t6.0s: **[Impact Frame]** He crashes into the ground. Massive explosion of dust and data.
+    *   t5.0s~t6.0s: **[Impact Frame]** He crashes into the dark ruins, creating a massive crater. As the dust settles, he stands up, golden liquid metal bleeding from his wounds.
     *   t6.0s~t8.0s: **[WS]** A perfect circular crater. Smoke clears.
     *   t8.0s~t10.0s: **[Low Angle]** Lucifer stands up slowly. Golden liquid metal bleeds from his wounds.
 *   **[10s-15s] Climax**: **[Hero Shot -> Resolution]**
@@ -40,6 +41,17 @@
 > At 10s, **[Extreme Close-Up]** a giant eye of golden fire opens on his face. **[Low Angle]** He points a broken sword at the sky. Behind him, black debris floats upward and assembles into a massive throne. He sits on it and spreads his black wings.
 > **[Camera]**: High-angle Fall -> Impact Shake -> Low-angle Hero Shot -> Zoom Out.
 > **[Style]**: Dark fantasy, dramatic lighting, volumetric fog, epic scale, heavy atmosphere.
+> **[Audio]**: CV: Takahiro Sakurai (Final Boss). Dialogue: "Kore wa batsu dewa nai... shounin da" / "Ware wa... shuusei suru". SFX: Burning Re-entry, Nuclear Impact, Heavy Bass Thud.
+
+**[TECHNICAL SPECS] (Render Config):**
+*   **Model**: Runway Gen-3 Alpha
+*   **Aspect Ratio**: --ar 16:9
+*   **Frame Rate**: 24fps
+*   **Motion Bucket**: --motion 6 (Epic Scale)
+*   **Micro-QA**: [PASS] (Beat Inspector)
+
+**[NEGATIVE PROMPT] (Safety Protocol):**
+> (photorealistic), (3d render), (unreal engine), (hyperrealistic), (live action), (cinematic lighting), (8k photography), (bokeh), (depth of field), (ray tracing), (bad anatomy), (extra limbs), (missing fingers), (fused fingers), (bad hands), (mutated), (deformed), (blurry), (low quality), (jpeg artifacts), (text), (watermark), (signature), (username), (subtitles), (UI elements), (HUD), (loading bar), (blood), (gore), (red liquid), (viscera), (exposed organs).
 
 **[CRITIC'S VERDICT]**
 > **Score**: 99/100

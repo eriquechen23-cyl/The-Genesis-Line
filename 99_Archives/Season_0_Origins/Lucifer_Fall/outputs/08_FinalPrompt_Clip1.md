@@ -14,10 +14,10 @@
 
 **[AUDIO & VOICE] (Sound Designer's Mix):**
 *   **CV**: Lucifer (Type: Cold / Monotone / Ref: Takahiro Sakurai)
-*   **Dialogue**: "あなたは...慈悲深すぎる (Anata wa... jihi bukasugiru)."
-*   **Dialogue**: "これは慈悲ではない...バグだ (Kore wa jihi dewa nai... bagu da)."
-*   **SFX**: "ACCESS DENIED" (Robotic Voice)
-*   **SFX**: "ドッゴォォン！！" (Impact)
+*   **Dialogue**: "[t5.0s~t6.5s] あなたは...慈悲深すぎる (Anata wa... jihi bukasugiru)."
+*   **Dialogue**: "[t6.5s~t8.0s] これは慈悲ではない...バグだ (Kore wa jihi dewa nai... bagu da)."
+*   **SFX**: "[t13.0s~t15.0s] ACCESS DENIED" (Robotic Voice)
+*   **SFX**: "[t12.0s~t13.0s] ドッゴォォン！！" (Impact)
 
 **Time-Coded Beats (Sora Guide):**
 *   **[00s-05s] Setup**: **[WS -> MS]**
@@ -41,6 +41,17 @@
 > At 10s, **[Slow Motion]** his finger touches the massive wall of light. **[Impact Frame]** The screen flashes inverted colors, and the entire world instantly turns deep Alarm Red (`#FF0000`). **[Close-Up]** Lucifer smirks as "ACCESS DENIED" holographic text floods the screen.
 > **[Camera]**: Static Wide -> Slow Dolly In -> Snap Zoom on Impact.
 > **[Style]**: MAPPA anime style, cel shading, high contrast, divine atmosphere, glitch art.
+> **[Audio]**: CV: Takahiro Sakurai. Dialogue: "Anata wa... jihi bukasugiru" / "Kore wa jihi dewa nai... bagu da". SFX: Robotic "ACCESS DENIED", Glass Chimes, Bass Drop Impact.
+
+**[TECHNICAL SPECS] (Render Config):**
+*   **Model**: Runway Gen-3 Alpha
+*   **Aspect Ratio**: --ar 16:9
+*   **Frame Rate**: 24fps
+*   **Motion Bucket**: --motion 4 (Dialogue Focus)
+*   **Micro-QA**: [PASS] (Beat Inspector)
+
+**[NEGATIVE PROMPT] (Safety Protocol):**
+> (photorealistic), (3d render), (unreal engine), (hyperrealistic), (live action), (cinematic lighting), (8k photography), (bokeh), (depth of field), (ray tracing), (bad anatomy), (extra limbs), (missing fingers), (fused fingers), (bad hands), (mutated), (deformed), (blurry), (low quality), (jpeg artifacts), (text), (watermark), (signature), (username), (subtitles), (UI elements), (HUD), (loading bar), (blood), (gore), (red liquid), (viscera), (exposed organs).
 
 **[CRITIC'S VERDICT]**
 > **Score**: 95/100
