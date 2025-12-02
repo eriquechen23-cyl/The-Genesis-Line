@@ -3,3 +3,7 @@
 *.jpg
 *.jpeg
 *.gif
+
+# Logs
+_logs/
+**/_logs/
