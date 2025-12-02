@@ -21,7 +21,7 @@ Master(15s｜Jujutsu Kaisen Style / MAPPA Aesthetics｜9:16｜24fps｜Dark Fanta
     * **Action**: [Wide Shot] 巨像的冰晶巨掌從天而降。烈以極限動作急轉身，滑行閃避。
 * **Beat 1.3 (3.0s-5.0s)**:
     * **Action**: [Impact Frame] 巨掌砸地，冰層放射狀崩裂，細微的**「鑽石塵」**飛濺而起。
-    * **Camera**: Low Angle Shake (Ground level)。
+    * **Camera**: Low Angle Shake (Ground level)。58
 
 **Act 2 (5.0s - 10.0s): Core Lock & Charge (核心鎖定與極致蓄能)**
 * **Intent**: 強調力量的集中與紋壓的極限過載。

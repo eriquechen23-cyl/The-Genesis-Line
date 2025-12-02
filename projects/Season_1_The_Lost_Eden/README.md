@@ -79,3 +79,4 @@ GENESIS-05 小隊不僅僅是特種部隊，他們是手持火劍的 **基路伯
 
 
 「GEMINI，啟動 第一季：失落的伊甸 模式。 請讀取 projects/Season_1_The_Lost_Eden/setting.md 作為最高指導原則。 接下來的所有產出（劇本或與 Video Prompt），都要符合『科幻皮，神學骨』的美學。
+
