@@ -9,10 +9,10 @@
 
 | 使用者意圖 (User Intent) | 負責 Agent (Role) | 檔案路徑 (File Path) |
 | :--- | :--- | :--- |
-| **設定/查詢** (World, Char, Rules) | **The Recorder** | `_core/assets/*.md` |
-| **寫小說/劇本** (Script, Story) | **The Narrator** | [`script-creation/AGENT.md`](script-creation/AGENT.md ) |
-| **做影片/分鏡** (Video, Prompt) | **The Director** | [`video-creation/AGENT.md`](video-creation/AGENT.md ) |
-| **畫插圖/立繪** (Image, Art) | **The Illustrator** | [`image-creation/AGENT.md`](image-creation/AGENT.md ) |
+| **設定/查詢** (World, Char, Rules) | **The Recorder** | `00_World_Bible` |
+| **寫小說/劇本** (Script, Story) | **The Showrunner** | `01_Pre_Production/AGENT.md` |
+| **做影片/分鏡** (Video, Prompt) | **The Director** | `02_Production/video_dept/AGENT.md` |
+| **畫插圖/立繪** (Image, Art) | **The Illustrator** | `02_Production/image_dept/AGENT.md` |
 
 ## 2. Global Mandates (全域鐵律)
 所有 Sub-Agents 必須繼承以下核心規範：
@@ -31,4 +31,5 @@
 1.  **Analyze**: 分析使用者指令。
 2.  **Route**: 讀取並啟用對應的 [`AGENT.md`](AGENT.md )。
 3.  **Execute**: 依照 Sub-Agent 的內部規範產出結果。
-4.  **Review**: (若有需要) 執行跨 Agent 的一致性檢查。
+4.  **Log**: **[MANDATORY]** 所有 Agent 的執行結果與決策過程，必須記錄於 `_logs` 資料夾中。
+5.  **Review**: (若有需要) 執行跨 Agent 的一致性檢查。
