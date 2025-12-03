@@ -20,10 +20,15 @@
 *   確認主角 (Squad/Character)、敵人 (Target) 與場景 (Location)。
 
 ### Step 2: Component Call (組件調用)
-依序讀取以下規範來生成素材，**並確保各組件已注入世界觀 (Worldview Injection)**：
+依序讀取以下規範來生成素材，**並確保各組件已注入世界觀 (Worldview Injection)**。
+**[AUDIT RECORD]**: 針對每個組件的調用結果，必須產出對應的 Log 檔案至 `_logs/` 資料夾。
+
 1.  **世界與敵人**：讀取 `components/world_architect/AGENT.md` -> 取得 `[Setting]`, `[Law]`, `[Enemy]`, `[Digital Nature]`.
+    *   **Log**: `_logs/00_WorldArch_Script{N}.md`
 2.  **動作與打擊**：讀取 `components/scriptwriter/action_choreographer.md` -> 取得 `[Sequence]`, `[Tech]`, `[Impact]`, `[Sensory Translation]`.
+    *   **Log**: `_logs/00_ActionChoreo_Script{N}.md`
 3.  **哲學與內心**：讀取 `components/scriptwriter/philosopher.md` -> 取得 `[Theme]`, `[Monologue]`, `[Sensory]`, `[Theological Metaphor]`.
+    *   **Log**: `_logs/00_Philosopher_Script{N}.md`
 
 ### Step 3: Assembly (組裝與撰寫)
 將上述素材融合，使用 **極具畫面感、五感豐富的小說筆法** 撰寫劇本。

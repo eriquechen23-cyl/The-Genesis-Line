@@ -31,4 +31,5 @@
 1.  **Analyze**: 分析使用者指令。
 2.  **Route**: 讀取並啟用對應的 [`AGENT.md`](AGENT.md )。
 3.  **Execute**: 依照 Sub-Agent 的內部規範產出結果。
-4.  **Review**: (若有需要) 執行跨 Agent 的一致性檢查。
+4.  **Log**: **[MANDATORY]** 所有 Agent 的執行結果與決策過程，必須記錄於 `_logs` 資料夾中。
+5.  **Review**: (若有需要) 執行跨 Agent 的一致性檢查。

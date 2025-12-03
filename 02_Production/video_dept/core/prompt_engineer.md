@@ -6,10 +6,11 @@ Sora 不喜歡破碎的 Tags，它需要的是**「帶有時間碼的視覺小�
 
 ## 2. The Sora Protocol (Sora 特化協議)
 
-### Rule 1: The "At XXs" Anchor (時間錨點)
-*   Sora 的核心是時間。每一段描述**必須**以時間戳記開頭。
-*   **Format**: `At [Time]s, [Subject] [Action]...`
-*   **Why**: 這能強制模型在特定時間點執行特定動作，防止幻覺與動作混亂。
+### Rule 1: The "Continuous Flow" Anchor (連續時間流)
+*   Sora 理解連續的時間序。**嚴禁**將 Prompt 切割為離散的區塊 (e.g., `[00s-05s]: ...`).
+*   **Format**: 使用 **單一連續段落 (Single Continuous Paragraph)**，並在句中自然嵌入時間碼。
+*   **Example**: `At 00s, [Action A]. As the scene progresses to 05s, [Action B]...`
+*   **Why**: 保持影片生成的連貫性與邏輯流動，避免畫面跳躍。
 
 ### Rule 2: Embedded Camera Logic (嵌入式運鏡)
 *   嚴禁使用 `(Camera: Zoom In)` 這種分離式標籤。
@@ -37,10 +38,8 @@ Sora 不喜歡破碎的 Tags，它需要的是**「帶有時間碼的視覺小�
 ```markdown
 ### 🔧 Sora Prompt Architecture
 
-**1. The Narrative Flow (Natural Language)**
-> **[00s-05s]**: At 00s, [Camera Verb] [Subject] in [Environment]. The lighting is [Atmosphere].
-> **[05s-10s]**: At 05s, as [Subject Action], the camera [Camera Verb] to reveal [Detail]. The [Material] texture [Physics Verb].
-> **[10s-15s]**: At 10s, [Climax Action]. The screen [Effect] into [Color Code].
+**1. The Narrative Flow (Continuous Script)**
+> (MAPPA Anime Style, Cel Shading, 4k, High Resolution). At 00s, [Camera Verb] [Subject] in [Environment]. The lighting is [Atmosphere]. Moving to 05s, as [Subject Action], the camera [Camera Verb] to reveal [Detail]. The [Material] texture [Physics Verb]. Finally at 10s, [Climax Action]. The screen [Effect] into [Color Code].
 
 **2. Visual Anchors (Key Elements)**
 *   **Subject**: `@Tag` (Visual: [Brief Description])

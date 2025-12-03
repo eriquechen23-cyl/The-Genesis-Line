@@ -23,6 +23,7 @@
     *   **[AUDIT RECORD]**: 產出檔案 `_logs/01_Storyboard_Clip{N}.md`。
 *   依據鏡頭序列，定義 Act 1/2/3 的節奏，確保在 **15秒內** 包含 **15-22 個關鍵動態 (Beats)** (High-Density Sakuga)。
 *   **[CRITICAL]** 為每個 Beat 分配精確的時間區段 (Time Range)，格式為 `t{Start}s~t{End}s` (e.g., `t0.0s~t1.5s`)。
+*   **[AUDIT RECORD]**: 產出檔案 `_logs/00_Director_Timeline_Clip{N}.md` (紀錄每個 Beat 的時間分配與節奏規劃)。
 
 ### Step 2: Component Call (組件調用 & Micro-QA)
 針對每一個 Beat，依序執行以下完整調用流程，並**強制產出紀錄檔**：
