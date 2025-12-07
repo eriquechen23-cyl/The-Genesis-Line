@@ -7,3 +7,6 @@
 # Logs
 _logs/
 **/_logs/
+
+# Environment Variables
+.env
